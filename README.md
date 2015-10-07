@@ -42,7 +42,7 @@ of big data? Probably not. We are processing data in the scale of
 petabyte or even exabyte today. But big is always relative, right?
 Although 1TB data is not that big today, it was big and very challenging
 to process 20 years ago. Recall the fastest supercomputer in 1994,
-Fujitsu Numerical Wind Tunnel, had the peak speed of 170 GFLOPS @top500.
+Fujitsu Numerical Wind Tunnel, had the peak speed of 170 GFLOPS @Top500.
 Well, a Nvidia K40 GPU in a PC has the power of 1430 GFLOPS today
 @Nvidia2014. Besides software innovations (e.g. GFS and MapReduce) also
 helped a lot to process bigger and bigger data. With the advances of
@@ -53,22 +53,22 @@ the driving force of technology advancement. How about “high variety”?
 Many people read it as unstructured data which can not be well handled
 by RDBMS. But unstructured data have always been there no matter how
 they are stored, processed, and analyzed. We do handle text, voice,
-images and videos better today with the advances of NoSQL, natural
+images and videos better today with the advances in NoSQL, natural
 language processing, information retrieval, computer vision, and pattern
 recognition. But it is still about the technology advancement rather
 than intrinsic value of big data.
 
 From the business point of view, we may understand big data better.
-Although data is a valuable corporate asset, it is not oil but just
-soil. Without analysis, they are pretty much useless. But extremely
-valuable knowledge and insights can be discovered from data. No matter
-how you call this analytic process (data science, business intelligence,
-machine learning, data mining, or information retrieval), the business
-goal is the same: higher competency gained from the discovered knowledge
-and insights. But wait a second. does not the idea of data analytics
-exist for long time? So what’re the real differences between today’s
-“big data” analytics and traditional data analytics? Looking back to web
-data analysis, the origin of big data, we will find that big data means
+Although data is a valuable corporate asset, it is just soil, not oil.
+Without analysis, they are pretty much useless. But extremely valuable
+knowledge and insights can be discovered from data. No matter how you
+call this analytic process (data science, business intelligence, machine
+learning, data mining, or information retrieval), the business goal is
+the same: higher competency gained from the discovered knowledge and
+insights. But wait a second. does not the idea of data analytics exist
+for a long time? So what’re the real differences between today’s “big
+data” analytics and traditional data analytics? Looking back to web data
+analysis, the origin of big data, we will find that big data means
 proactively learning and understanding the customers, their needs,
 behaviors, experience, and trends in near real-time and 24$\times$7. On
 the other hand, traditional data analytics is passive/reactive, treats
@@ -82,7 +82,7 @@ them is about
 
 -   Recommendation
 
-which you rarely find in business intelligence applications [^1]. New
+which you rarely find in business intelligence applications.[^1] New
 applications, e.g. smart grid and Internet of things, are pushing this
 real-time proactive analysis forward to the whole environment and
 context. Therefore, the fundamental objective of big data is to help the
@@ -100,9 +100,9 @@ speed of data generation and the size of data. But the truth is that
 they are triggered by human actions (event is probably a better name of
 these data). The Internet of things will help us even to understand the
 environment and context of user actions. The analysis on events results
-in a better understanding of every single user and thus improved user
-experience and bigger revenue, a lovely win-win for both customers and
-business.
+in a better understanding of every single user and thus yield improved
+user experience and bigger revenue, a lovely win-win for both customers
+and business.
 
 Business Use Cases
 ------------------
@@ -110,7 +110,7 @@ Business Use Cases
 Big data is not just a hype but can bring great values to business. In
 what follows, we will discuss some use case of big data in different
 areas and industries. The list can go very long but we will focus on
-several important cases to show how big data can help solving business
+several important cases to show how big data can help solve business
 challenges.
 
 ### CRM
@@ -122,24 +122,24 @@ sales opportunities, analyze customers’ sentiment, and improve customer
 experience to increase customer engagement and bring greater profits.
 
 Using big data, organizations can collect more accurate and detailed
-information to gain the 360 view of the customer. The analysis of all
-customer touch points, including browsing history [^2], social media,
+information to gain the 360 view of customers. The analysis of all the
+customers’ touch points, such as browsing history,[^2] social media,
 email, and call center, enable companies to gain a much more complete
-and deep understanding of customer behavior – what ads attract them, why
-they buy, how they shop, what they buy together, what they’ll buy next,
-why they switch, how they recommend a produce/service in their social
-network, etc. Once actionable insights are discovered, companies more
-likely rise above industry standards.
+and deeper understanding of customer behavior – what ads attract them,
+why they buy, how they shop, what they buy together, what they’ll buy
+next, why they switch, how they recommend a product/service in their
+social network, etc. Once actionable insights are discovered, companies
+will more likely rise above industry standards.
 
-Big data also enable comprehensive benchmarking over time. For example,
-banks, telephone service companies, Internet service providers, pay TV
-companies, insurance firms, and alarm monitoring services, often use
-customer attrition analysis and customer attrition rates as one of their
-key business metrics because the cost of retaining an existing customer
-is far less than acquiring a new one @ReichheldSasser1990. Moreover, big
-data enables service providers to move from reactive churn management to
-proactive customer retention with predictive modeling before customers
-explicitly start the switch.
+Big data also enable comprehensive benchmarking over the time. For
+example, banks, telephone service companies, Internet service providers,
+pay TV companies, insurance firms, and alarm monitoring services, often
+use customer attrition analysis and customer attrition rates as one of
+their key business metrics because the cost of retaining an existing
+customer is far less than acquiring a new one @ReichheldSasser1990.
+Moreover, big data enables service providers to move from reactive churn
+management to proactive customer retention with predictive modeling
+before customers explicitly start the switch.
 
 ### HCM
 
@@ -175,7 +175,7 @@ These are all important HR tasks. However, they are hardly associated to
 passive. Taking performance and goals management as an example, one and
 his/her manager enter the goals at the beginning of years and input the
 performance evaluations and feedbacks at the end of year. So what? If
-low performance happened, it has already happened for most of a year!
+low performance happened, it has already happened for most of the year!
 
 With big data, HCM systems can help HR practitioners and managers to
 actively measure, monitor and improve employee performance. Although it
@@ -192,9 +192,9 @@ used to understand the underlying patterns of employee turnover. With
 big data, HCM systems can predict which high-performing employees are
 likely to leave a company in the next year and then offers possible
 actions (higher compensation and/or new job) that might make them stay.
-For corporations, we simply want to know our employees as well as we
-know our customers. From this point of view, it does make a lot of sense
-to connect HCM and CRM together with big data to shorten the
+For corporations, they simply want to know their employees as well as
+they know their customers. From this point of view, it does make a lot
+of sense to connect HCM and CRM together with big data to shorten the
 communication paths between inside and outside world.
 
 ### IoT
@@ -254,33 +254,34 @@ electronic medical record data, notes from doctors and nurses, research
 materials, clinical studies, journal articles, and patient information.
 
 Data Management
----------------
+===============
 
 ![Data Management](images/data-management.png)
 
 Data is a corporate asset. But it is firstly a debt. The costs of data
 acquisition, hardware, software, operation, and talents are very high.
-Without right management, it is unlikely for us to effectively extract
-the value from data. To make big data a success, we must have all the
-disciplines to manage data as a valuable resource. Data management is
-much broader than database management. It is a systematic process of
+Without the right management, it is unlikely for us to effectively
+extract values from data. To make big data a success, we must have all
+the disciplines to manage data as a valuable resource. Data management
+is much broader than database management. It is a systematic process of
 capturing, delivering, operating, protecting, enhancing, and disposing
-of data cost-effectively, which needs the ever-going reinforcement of
-plans, policies, programs and practices.
+of the data cost-effectively, which needs the ever-going reinforcement
+of plans, policies, programs and practices.
 
 The ultimate goal of data management is to increase the value
-proposition of data. It requires serious and careful consideration and
-should start with a data strategy that defines a roadmap to meet the
+proposition of the data. It requires serious and careful consideration
+and should start with a data strategy that defines a roadmap to meet the
 business needs in a data-driven approach. To create a data strategy,
-think carefully the following questions:
+think carefully of the following questions:
 
 -   What problem do we try to solve? What value can big data bring in?
     Big data is hot and thus many corporations are hugging it. However,
-    big data for big data is apparently wrong. Other’s use cases do not
-    have to be yours. To glean the value of big data, a deep
-    understanding of your business and problems to solve is essential.
+    big data for the sake of big data is apparently wrong. Other’s use
+    cases do not have to be yours. To glean the value of big data, a
+    deep understanding of your business and problems to solve
+    is essential.
 
--   Who hold the data, who own the data, and who can access the data?
+-   Who holds the data, who owns the data, and who can access the data?
     Data governance is a set of processes that ensures that important
     data assets are formally managed throughout the enterprise. Through
     data governance, we expect data stewards and data custodians to
@@ -338,11 +339,11 @@ Hadoop is an open-source software framework for distributed storage and
 distributed processing of big data on clusters of commodity hardware.
 Essentially, Hadoop consists of three parts:
 
--   YARN for job scheduling and cluster resource management
-
 -   HDFS is a distributed high-throughput file system
 
 -   MapReduce for job framework of parallel data processing
+
+-   YARN for job scheduling and cluster resource management
 
 The HDFS splits files into large blocks that are distributed (and
 replicated) among the nodes in the cluster. For processing the data,
@@ -354,138 +355,9 @@ that have the required data and processing the data in parallel.
 Today the Hadoop ecosystem goes beyond the base package and includes
 many additional software packages that can be installed on top of or
 alongside Hadoop, such as Apache Hive, Apache Spark, Apache Storm, etc.
-In this chapter, we will discuss the core of Hadoop, i.e. YARN, HDFS,
-and MapReduce. We will also discuss the related software such as Mesos,
-Tez, Spark, and ZooKeeper.
-
-Cluster Management
-------------------
-
-Large-scale computer clusters are challenging to utilize efficiently.
-One of the critical tasks of cluster management is to dispatch work for
-the cluster to perform. The scheduler, assigning jobs to machines, has
-to take account of a variety of requirements and policies. With the
-ever-growing size of data, cluster, and workload, the scheduler may
-become a scalability bottleneck @Schwarzkopf:2013:OFS.
-
-### YARN
-
-Originally, Hadoop was restricted mainly to the paradigm MapReduce,
-where the resource management is done by JobTracker and TaskTacker. The
-JobTracker farms out MapReduce tasks to specific nodes in the cluster,
-ideally the nodes that have the data, or at least are in the same rack.
-A TaskTracker is a node in the cluster that accepts tasks - Map, Reduce
-and Shuffle operations - from a JobTracker. Because Hadoop has stretched
-beyond MapReudce (e.g. HBase, Storm, etc.), Hadoop now architecturally
-decouples the resource management features from the programming model of
-MapReduce, which makes Hadoop clusters more generic. The new resource
-manager is referred to as MapReduce 2.0 (MRv2) or YARN @YARN2011:279.
-Now MapReduce is one kind of applications running in a YARN container
-and other types of applications can be written generically to run on
-YARN.
-
-YARN employs a master-slave model and includes several components:
-
--   The global Resource Manager is the ultimate authority that
-    arbitrates resources among all applications in the system.
-
--   The per-application Application Master negotiates resources from the
-    Resource Manager and works with the Node Managers to execute and
-    monitor the component tasks.
-
--   The per-node slave Node Manager is responsible for launching the
-    applications’ containers, monitoring their resource usage and
-    reporting to the Resource Manager.
-
-![YARN Architecture](images/yarn-architecture.png)
-
-The Resource Manager, consisting of Scheduler and Application Manager,
-is the central authority that arbitrates resources among various
-competing applications in the cluster. The Scheduler is responsible for
-allocating resources to the various running applications subject to the
-constraints of capacities, queues etc. The Application Manager is
-responsible for accepting job-submissions, negotiating the first
-container for executing the application specific Application Master and
-provides the service for restarting the Application Master container on
-failure.
-
-The Scheduler uses the abstract notion of a Resource Container which
-incorporates elements such as memory, CPU, disk, network etc. Initially,
-YARN uses the memory-based scheduling. Each node is configured with a
-set amount of memory and applications request containers for their tasks
-with configurable amounts of memory. Recently, YARN added CPU as a
-resource in the same manner. Nodes are configured with a number of
-“virtual cores” (vcores) and applications give a vcore number in the
-container request.
-
-The Scheduler has a pluggable policy plug-in, which is responsible for
-partitioning the cluster resources among the various queues,
-applications etc. For example, the Capacity Scheduler is designed to
-maximize the throughput and the utilization of shared, multi-tenant
-clusters. Queues are the primary abstraction in the Capacity Scheduler.
-The capacity of each queue specifies the percentage of cluster resources
-that are available for applications submitted to the queue. Furthermore,
-queues can be set up in a hierarchy. YARN also sports a Fair Scheduler
-that tries to assign resources to applications such that all
-applications get an equal share of resources over time on average using
-dominant resource fairness @Ghodsi:2011:DRF.
-
-The protocol between YARN and applications is as follows. First an
-Application Submission Client communicates with the Resource Manager to
-acquire a new Application Id. Then it submit the Application to be run
-by providing sufficient information (e.g. the local files/jars, command
-line, environment settings, etc.) to the Resource Manager to launch the
-Application Master. The Application Master is then expected to register
-itself with the Resource Manager and request for and receive containers.
-After a container is allocated to it, the Application Master
-communicates with the Node Manager to launch the container for its task
-by specifying the launch information such as command line specification,
-environment, etc. The Application Master also handles failures of job
-containers. Once the task is completed, the Application Master signals
-the Resource Manager.
-
-As the central authority of the YARN cluster, the Resource Manager is
-also the single point of failure (SPOF). To make it fault tolerant, an
-Active/Standby architecture can be employed since Hadoop 2.4. Multiple
-Resource Manager instances (listed in the configuration file
-yarn-site.xml) can be brought up but only one instance is Active at any
-point of time while others are in Standby mode. When the Active goes
-down or becomes unresponsive, another Resource Manager is automatically
-elected by a ZooKeeper-based method to be the Active. ZooKeeper is a
-replicated CP key-value store, which we will discuss in details later.
-Clients, Application Masters and Node Managers try connecting to the
-Resource Managers in a round-robin fashion until they hit the new
-Active.
-
-### Mesos
-
-![Mesos Architecture](images/mesos-architecture.jpg)
-
-Mesos @Hindman:2011:MPF is another cluster resource management software
-from Apache. Mesos uses the master-slave architecture similar to YARN
-but with a very different design goal. Mesos aims to enable sharing
-clusters between multiple diverse cluster computing frameworks, such as
-Hadoop, Spark [^3] and MPI. This improves cluster utilization and avoids
-per-framework data replication.
-
-Mesos introduces a distributed two-level scheduling mechanism [^4] and
-delegates control over scheduling to the frameworks. This allows
-frameworks to implement diverse approaches to various problems in the
-cluster and to evolve these solutions independently.
-
-Mesos consists of a master process that manages slave daemons running on
-each cluster node, and frameworks that run tasks on these slaves. The
-master implements resource sharing using through the abstraction
-<span>*resource offer*</span>, which encapsulates a bundle of resources
-that a framework can allocate on a cluster node to run tasks. The master
-decides how many resources to offer to each framework according to some
-(pluggable) policy.
-
-A framework running on top of Mesos consists of two components: a
-scheduler that registers with the master to be offered resources, and an
-executor process that is launched on slave nodes to run the framework’s
-tasks. Resource offers are simple and efficient to implement, allowing
-Mesos to be highly scalable and robust to failures.
+In this chapter, we will discuss the core of Hadoop, i.e. HDFS, and
+MapReduce, and YARN. We will also discuss the related software such as
+Tez.
 
 HDFS
 ----
@@ -530,7 +402,7 @@ files by clients. In addition, there are a number of DataNodes\
 index<span>HDFS!NameNode</span> that manage storage attached to the
 nodes that they run on. A typical deployment has a dedicated machine
 that runs only the NameNode. Each of the other machines in the cluster
-runs one instance of the DataNode [^5].
+runs one instance of the DataNode.[^3]
 
 HDFS supports a traditional hierarchical file organization that consists
 of directories and files. In HDFS, each file is stored as a sequence of
@@ -640,7 +512,7 @@ each small file.
 
 In order to reduce the number of files and thus the pressure on the
 NameNode’s memory, Hadoop Archives (HAR files) were introduced. HAR
-files, created by `hadoop archive` [^6] command, are special format
+files, created by `hadoop archive`[^4] command, are special format
 archives that contain metadata and data files. The archive exposes
 itself as a file system layer. All of the original files are visible and
 accessible through a `har://` URI. It is also easy to use HAR files as
@@ -698,7 +570,7 @@ Federation.
 ### Java API
 
 HDFS is implemented in Java and provides a native Java API. To access
-HDFS in other programming languages, Thrift [^7] bindings are provided
+HDFS in other programming languages, Thrift[^5] bindings are provided
 for Perl, Python, Ruby and PHP @HdfsThrift. In what follows, we will
 discuss how to work with HDFS Java API with a couple of small examples.
 First of all, we need to add the following dependencies to the project’s
@@ -764,7 +636,7 @@ files, we need to use the classes `FSDataInputStream` and
 `FSDataOutputStream`. In the following example, we develop two simple
 functions to copy a local file into/from HDFS. For simplicity, we do not
 check the file existence or any I/O errors. Note that `FileSystem` does
-provides several utility functions for copying files between local and
+provide several utility functions for copying files between local and
 distributed file systems.
 
     /** Copy a local file to HDFS */
@@ -888,7 +760,7 @@ Although MPI provides a comprehensive API for data transfer and
 synchronization, it is not very suitable for big data. Due to the large
 data size and shared-nothing architecture for scalability, data
 distribution and I/O are critical to big data analytics while MPI almost
-ignores it [^8]. On the other hand, many big data analytics are
+ignores it.[^6] On the other hand, many big data analytics are
 conceptually straightforward and does not need very complicated
 communication and synchronization mechanism. Based on these
 observations, Google invented MapReduce @Dean:2008:MSD to deal the
@@ -906,7 +778,7 @@ the data is located rather than moving the data to where the application
 is running. With GFS/HDFS, MapReduce provides such a parallel
 programming framework.
 
-Inspired by the `map` and `reduce`[^9] functions commonly used in
+Inspired by the `map` and `reduce`[^7] functions commonly used in
 functional programming, a MapReduce program is composed of a Map()
 procedure that performs transformation and a Reduce() procedure that
 takes the shuffled output of Map as input and performs a summarization
@@ -1237,7 +1109,7 @@ need to load the data only once for each JVM.
 
 The above map-side join is fast but only works when the smaller dataset
 fits in the memory. To avoid this pitfall, we can use the multi-phrase
-map-side join. First we runs a MapReduce job on each dataset that uses
+map-side join. First we run a MapReduce job on each dataset that uses
 the join attribute as the Mapper’s and Reducer’s output key and have the
 same number of reducers for all datasets. In this way, all datasets are
 sorted by the join attribute and have the same number of partitions. In
@@ -1487,21 +1359,112 @@ Like MapReduce, Tez is still a lower-level programming model. To obtain
 good performance, the developer must understand the structure of the
 computation and the organization and properties of the system resources.
 
+YARN
+----
+
+Originally, Hadoop was restricted mainly to the paradigm MapReduce,
+where the resource management is done by JobTracker and TaskTacker. The
+JobTracker farms out MapReduce tasks to specific nodes in the cluster,
+ideally the nodes that have the data, or at least are in the same rack.
+A TaskTracker is a node in the cluster that accepts tasks - Map, Reduce
+and Shuffle operations - from a JobTracker. Because Hadoop has stretched
+beyond MapReudce (e.g. HBase, Storm, etc.), Hadoop now architecturally
+decouples the resource management features from the programming model of
+MapReduce, which makes Hadoop clusters more generic. The new resource
+manager is referred to as MapReduce 2.0 (MRv2) or YARN @YARN2011:279.
+Now MapReduce is one kind of applications running in a YARN container
+and other types of applications can be written generically to run on
+YARN.
+
+YARN employs a master-slave model and includes several components:
+
+-   The global Resource Manager is the ultimate authority that
+    arbitrates resources among all applications in the system.
+
+-   The per-application Application Master negotiates resources from the
+    Resource Manager and works with the Node Managers to execute and
+    monitor the component tasks.
+
+-   The per-node slave Node Manager is responsible for launching the
+    applications’ containers, monitoring their resource usage and
+    reporting to the Resource Manager.
+
+![YARN Architecture](images/yarn-architecture.png)
+
+The Resource Manager, consisting of Scheduler and Application Manager,
+is the central authority that arbitrates resources among various
+competing applications in the cluster. The Scheduler is responsible for
+allocating resources to the various running applications subject to the
+constraints of capacities, queues etc. The Application Manager is
+responsible for accepting job-submissions, negotiating the first
+container for executing the application specific Application Master and
+provides the service for restarting the Application Master container on
+failure.
+
+The Scheduler uses the abstract notion of a Resource Container which
+incorporates elements such as memory, CPU, disk, network etc. Initially,
+YARN uses the memory-based scheduling. Each node is configured with a
+set amount of memory and applications request containers for their tasks
+with configurable amounts of memory. Recently, YARN added CPU as a
+resource in the same manner. Nodes are configured with a number of
+“virtual cores” (vcores) and applications give a vcore number in the
+container request.
+
+The Scheduler has a pluggable policy plug-in, which is responsible for
+partitioning the cluster resources among the various queues,
+applications etc. For example, the Capacity Scheduler is designed to
+maximize the throughput and the utilization of shared, multi-tenant
+clusters. Queues are the primary abstraction in the Capacity Scheduler.
+The capacity of each queue specifies the percentage of cluster resources
+that are available for applications submitted to the queue. Furthermore,
+queues can be set up in a hierarchy. YARN also sports a Fair Scheduler
+that tries to assign resources to applications such that all
+applications get an equal share of resources over time on average using
+dominant resource fairness @Ghodsi:2011:DRF.
+
+The protocol between YARN and applications is as follows. First an
+Application Submission Client communicates with the Resource Manager to
+acquire a new Application Id. Then it submit the Application to be run
+by providing sufficient information (e.g. the local files/jars, command
+line, environment settings, etc.) to the Resource Manager to launch the
+Application Master. The Application Master is then expected to register
+itself with the Resource Manager and request for and receive containers.
+After a container is allocated to it, the Application Master
+communicates with the Node Manager to launch the container for its task
+by specifying the launch information such as command line specification,
+environment, etc. The Application Master also handles failures of job
+containers. Once the task is completed, the Application Master signals
+the Resource Manager.
+
+As the central authority of the YARN cluster, the Resource Manager is
+also the single point of failure (SPOF). To make it fault tolerant, an
+Active/Standby architecture can be employed since Hadoop 2.4. Multiple
+Resource Manager instances (listed in the configuration file
+yarn-site.xml) can be brought up but only one instance is Active at any
+point of time while others are in Standby mode. When the Active goes
+down or becomes unresponsive, another Resource Manager is automatically
+elected by a ZooKeeper-based method to be the Active. ZooKeeper is a
+replicated CP key-value store, which we will discuss in details later.
+Clients, Application Masters and Node Managers try connecting to the
+Resource Managers in a round-robin fashion until they hit the new
+Active.
+
 Spark
------
+=====
 
 Although MapReduce is great for large scale data processing, it is not
 friendly for iterative algorithms or interactive analytics because the
 data have to be repeatedly loaded for each iteration or be materialized
 and replicated on the distributed file system between successive jobs.
 Apache Spark @Zaharia:2010:SCC [@Zaharia:2012:RDD; @Spark] is designed
-to solve this problem by reusing the working dataset. Spark was built on
-top of Mesos initially but can also run on top of YARN or standalone
-today. The overall framework and parallel computing model of Spark is
-similar to MapReduce but with an important innovation, reliant
+to solve this problem by reusing the working dataset. Initially Spark
+was built on top of Mesos but can now also run on top of YARN or
+standalone today. The overall framework and parallel computing model of
+Spark is similar to MapReduce but with an important innovation, reliant
 distributed dataset (RDD).
 
-### RDD
+RDD
+---
 
 An RDD is a read-only collection of objects partitioned across a cluster
 of computers that can be operated on in parallel. A Spark application
@@ -1532,14 +1495,14 @@ Caching and Persistence
 
 :   We can cache a dataset in memory across operations, which allows
     future actions to be much faster. Caching is a key tool for
-    iterative algorithms and fast interactive use. Caching is actually
-    one special case of persistence that allows different storage
-    levels, e.g. persisting the dataset on disk, persisting it in memory
-    but as serialized Java objects (to save space), replicating it
-    across nodes, or storing it off-heap in Tachyon[^10] @Tachyon. These
-    levels are set by passing a `StorageLevel` object to `persist()`.
-    The cache() method is a shorthand for using the default storage
-    level `StorageLevel.MEMORY_ONLY` (store deserialized objects
+    iterative algorithms and fast interactive use cases. Caching is
+    actually one special case of persistence that allows different
+    storage levels, e.g. persisting the dataset on disk, persisting it
+    in memory but as serialized Java objects (to save space),
+    replicating it across nodes, or storing it off-heap in Tachyon[^8]
+    @Tachyon. These levels are set by passing a `StorageLevel` object to
+    `persist()`. The cache() method is a shorthand for using the default
+    storage level `StorageLevel.MEMORY_ONLY` (store deserialized objects
     in memory).
 
 Fault Tolerant
@@ -1575,10 +1538,11 @@ suitable for iterative machine learning algorithms. Similar to
 MapReduce, Spark is independent of the underlying storage system. It is
 application developers’ duty to organize data such as building and using
 any index, partitioning and collocating related data sets, etc. These
-are critical for interactive analytics. Merely caching is not sufficient
+are critical for interactive analytics. Merely caching is insufficient
 and not effective for extremely large data.
 
-### Implementation
+Implementation
+--------------
 
 The RDD object implements a simple interface, which consists of three
 operations:
@@ -1601,7 +1565,8 @@ nodes. Spark tries to send each task to one of its preferred locations.
 Once launched on a worker, each task calls `getIterator` to start
 reading its partition.
 
-### API
+API
+---
 
 Spark is implemented in Scala and provides high-level APIs in Scala,
 Java, and Python. The following examples are in Scala. A Spark program
@@ -1632,7 +1597,7 @@ Beyond the basic operations such as `map` and `reduce`, Spark also
 provides advanced operations such as `union`, `intersection`, `join`,
 `cogroup`, which creates a new dataset from two existing RDDs. All these
 operations take a functions from the driver program to run on the
-cluster. Thanking to the functional features of Scala, the code is a lot
+cluster. Thanks to the functional features of Scala, the code is a lot
 simpler and cleaner than MapReduce as shown in the example.
 
 As we discussed, RDDs are lazy and ephemeral. If we need to access an
@@ -1645,6 +1610,623 @@ Spark also supports a rich set of higher-level tools including Spark SQL
 for SQL and structured data processing, MLlib for machine learning,
 GraphX for graph processing, and Spark Streaming for event processing.
 We will discuss these technologies later in related chapters.
+
+Data Warehouse
+==============
+
+With big data at hand, we want to crunch numbers from them. Of course,
+we have to use some distributed parallel computing frameworks given the
+large data size. In this chapter, we will go through several such
+frameworks. Naturally, MapReduce is our first topic as it started the so
+called big data analytics.
+
+After years of practice, the community has realized these problems and
+try to address them in different ways. For example, Apache Spark aims on
+the speed by keeping data in memory. Apache Pig provides a DSL and Hive
+provides a SQL dialect on the top of MapReduce to ease the programming.
+Google Dremel/Cloudera Impala target on interactive analysis with SQL
+queries. Google Pregel/Apache Giraph concerns computing problems on
+large graphs. Apache Storm focuses on real time event processing. We
+will look into all of them in this series.
+
+Pig
+---
+
+MapReduce is a good tool for offline, ad-hoc analytics, which often
+involves multiple successive jobs. A single MapReduce job essentially
+performs a group-by aggregation in a massively parallel way. However,
+its programming model is very low level. Custom code has to be written
+for even simple operations like projection and filtering. It is even
+more tedious and verbose to implement common relational operators such
+as join. Several efforts have been devoted to simplify the development
+of MapReduce programs by providing high level DSLs that can be
+translated to native MapReduce code. Different from many other projects
+that bring SQL to Hadoop, Pig is special in that it provides a
+procedural (data flow) programming language Pig Latin as it was designed
+for experienced programmers. However, SQL programmers won’t have
+difficulties to understand Pig Latin programs because most statements
+just look like SQL clauses.
+
+A Pig Latin program is a sequence of steps, each of which carries out a
+single data processing at fairly high level, e.g. loading, filtering,
+grouping, etc. The input data can be loaded from the file system or
+HBase by the operator LOAD:
+
+    grunt> persons = LOAD 'person.csv' USING PigStorage(',') AS (name: chararray, age:int, address: (street: chararray, city: chararray, state: chararray, zip: int));
+
+where grunt&gt; is the prompt of Pig console and PigStorage is a
+built-in deserializer for structured text files. Various deserializers
+are available. User defined functions (UDFs) can also be used to parse
+data in unsupported format. The AS clause defines a schema that assigns
+names to fields and declares types for fields. Although schemas are
+optional, programmer are encouraged to use them whenever possible. Note
+that such a “schema on read” is very different from the relational
+approach that requires rigid predefined schemas. Therefore, there is no
+need copying or reorganizing the data.
+
+Pig has a rich data model. Primitive data types include int, long,
+float, double, chararray, bytearray, boolean, datetime, biginteger and
+bigdecimal. And complex data types include tuple, bag (a collection of
+tuples), and map (a set of key value pairs). Different from relational
+model, the fields of tuples can be any data types. Similarly, the map
+values can be any types (the map key is always type chararray). That is,
+nested data structures are supported.
+
+Once the input data have been specified, there is a rich set of
+relational operators to transform them. The FOREACH...GENERATE operator,
+corresponding to the map tasks of MapReduce, produces a new bag by
+projection, applying functions, etc.
+
+    grunt> flatten_persons = FOREACH persons GENERATE name, age, FLATTEN(address);
+
+where FLATTEN is a function to remove one level of nesting. With the
+operator DESCRIBE, we can see the schema difference between persons and
+flatten\_persons:
+
+    grunt> DESCRIBE persons;
+    persons: {name: chararray,age: int,address: (street: chararray,city: chararray,state: chararray,zip: int)}
+    grunt> DESCRIBE flatten_persons;
+    flatten_persons: {name: chararray,age: int,address::street: chararray,address::city: chararray,address::state: chararray,address::zip: int}
+
+Frequently, we want to filter the data based on some condition.
+
+    grunt> adults = FILTER flatten_persons BY age > 18;
+
+Aggregations can be done by GROUP operator, which corresponds to the
+reduce tasks in MapReduce.
+
+    grunt> grouped_by_state = GROUP flatten_persons BY state;
+    grunt> DESCRIBE grouped_by_state;
+    grouped_by_state: {group: chararray,flatten_persons: {(name: chararray,age: int,address::street: chararray,address::city: chararray,address::state: chararray,address::zip: int)}}
+
+The result of a GROUP operation is a relation that includes one tuple
+per group of two fields:
+
+The first field is named “group” and is the same type as the group key.
+The second field takes the name of the original relation and is type
+bag. We can also cogroup two or more relations.
+
+    grunt> cogrouped_by_name = COGROUP persons BY name, flatten_persons BY name;
+    grunt> DESCRIBE cogrouped_by_name;
+    cogrouped_by_name: {group: chararray,persons: {(name: chararray,age: int,address: (street: chararray,city: chararray,state: chararray,zip: int))},flatten_persons: {(name: chararray,age: int,address::street: chararray,address::city: chararray,address::state: chararray,address::zip: int)}}
+
+In fact, the GROUP and COGROUP operators are identical. Both operators
+work with one or more relations. For readability, GROUP is used in
+statements involving one relation while COGROUP is used when involving
+two or more relations.
+
+A closely related but different operator is JOIN, which is a syntactic
+sugar of COGROUP followed by FLATTEN.
+
+    grunt> joined_by_name = JOIN persons BY name, flatten_persons BY name;
+    grunt> DESCRIBE joined_by_name;
+    joined_by_name: {persons::name: chararray,persons::age: int,persons::address: (street: chararray,city: chararray,state: chararray,zip: int),flatten_persons::name: chararray,flatten_persons::age: int,flatten_persons::address::street: chararray,flatten_persons::address::city: chararray,flatten_persons::address::state: chararray,flatten_persons::address::zip: int}
+
+Overall, a Pig Latin program is like a handcrafted query execution plan.
+In contrast, a SQL based solution, e.g. Hive, relies on an execution
+planner to automatically translate SQL statements to an execution plan.
+Like SQL, Pig Latin has no control structures. But it is possible to
+embed Pig Latin statements and Pig commands in the Python, JavaScript
+and Groovy scripts.
+
+When you run the above statements in the console of Pig, you will notice
+that they finish instantaneously. It is because Pig is lazy and there is
+no really computation happened. For example, LOAD does not really read
+the data but just returns a handle to a bag/relation. Only when a STORE
+command is issued, Pig materialize the result of a Pig Latin expression
+sequence to the file system. Before a STORE command, Pig just builds a
+logical plan for every user defined bag. At the point of a STORE
+command, the logical plan is compiled into a physical plan (a directed
+acyclic graph of MapReduce jobs) and is executed.
+
+It is possible to replace MapReduce with other execution engines in Pig.
+For example, there are efforts to run Pig on top of Spark. However, is
+it necessary? Spark already provides many relational operators and the
+host language Scala is very nice to write concise and expressive
+programs.
+
+In summary, Pig Latin is a simple and easy to use DSL that makes
+MapReduce programming a lot easier. Meanwhile, Pig keeps the flexibility
+of MapReduce to process schemaless data in plain files. There is no need
+to do slow and complex ETL tasks before analysis, which makes Pig a
+great tool for quick ad-hoc analytics such as web log analysis. In the
+next post, we will discuss Hive, a major competitor of Pig, which first
+brought SQL to Hadoop.
+
+Hive
+----
+
+In previous post, we discussed Apache Pig that provides a data flow DSL
+Pig Latin to ease the MapReduce programming. Although many statements in
+Pig Latin look just like SQL clauses, it is a procedural programming
+language. Today we will discuss Apache Hive that first brought SQL to
+Hadoop. Similar to Pig, Hive translates its own dialect of SQL (HiveQL)
+queries to a directed acyclic graph of MapReduce (or Tez since 0.13)
+jobs. However, the difference between Pig and Hive is not only
+procedural vs declarative. Pig is a relatively thin layer on top of
+MapReduce for offline analytics. But Hive is towards a data warehouse.
+With the recent stinger initiative, Hive is closer to interactive
+analytics by 100x performance improvement.
+
+Pig uses a “schema on read” approach that users define the (optional)
+schema on loading data. In contrast, Hive requires users to provides
+schema, (optional) storage format and serializer/deserializer (called
+SerDe) when creating a table. These information is saved in the metadata
+repository (by default an embedded Derby database) and will be used
+whenever the table is referenced, e.g. to typecheck the expressions in
+the query and to prune partitions based on query predicates. The
+metadata store also provides data discovery (e.g. SHOW TABLES and
+DESCRIBE) that enables users to discover and explore relevant and
+specific data in the warehouse. The following example shows how to
+create a database and a table.
+
+    CREATE DATABASE portal;
+    USE portal;
+    CREATE TABLE weblog (
+      host STRING,
+      identity STRING,
+      user STRING,
+      time STRING,
+      request STRING,
+      status STRING,
+      size STRING,
+      referer STRING,
+      agent STRING)
+    ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.RegexSerDe'
+    WITH SERDEPROPERTIES (
+      "input.regex" = "([^ ]*) ([^ ]*) ([^ ]*) (-|\\[[^\\]]*\\]) ([^ \"]*|\"[^\"]*\") (-|[0-9]*) (-|[0-9]*)(?: ([^ \"]*|\"[^\"]*\") ([^ \"]*|\"[^\"]*\"))?"
+    )
+    STORED AS TEXTFILE;
+
+The interesting part of example is the bottom five lines that specify
+custom regular expression SerDe and plain text file format. If ROW
+FORMAT is not specified or ROW FORMAT DELIMITED is specified, a native
+SerDe is used. Besides plain text files, many other file formats are
+supported. Later we will discuss more details on ORC files, which
+improve query performance significantly.
+
+Different from relational data warehouses, Hive supports nested data
+models with complex types array, map, and struct. For example, the
+following statement creates a table with a complex schema.
+
+    CREATE TABLE complex_table(
+      id STRING,
+      value FLOAT,
+      list_of_maps ARRAY<MAP<STRING, STRUCT<x:INT, y:INT>>>
+    );
+
+By default, all the data files for a table are located in a single
+directory. Tables can be physically partitioned based on values of one
+or more columns with the PARTITIONED BY clause. A separate directory is
+created for each distinct value combination in the partition columns.
+Partitioning can greatly speed up queries that test those columns. Note
+that the partitioning columns are not part of the table data and the
+partition column values are encoded in the directory path of that
+partition (and also stored in the metadata store). Moreover, tables or
+partitions can be bucketed using CLUSTERED BY columns, and data can be
+sorted within that bucket via SORT BY columns.
+
+Now we can load some data into our table:
+
+    LOAD DATA LOCAL INPATH 'portal/logs' OVERWRITE INTO TABLE weblog;
+
+Note that Hive does not do any verification of data against the schema
+or transformation while loading data into tables. The input files are
+simply copied or moved into the Hive’s file system namespace. If the
+keyword LOCAL is specified, the input files are assumed in the local
+file system, otherwise in HDFS. While not necessary in this example, the
+keyword OVERWRITE signifies that existing data in the table is
+overwritten. If the OVERWRITE keyword is omitted, data files are
+appended to existing data sets.
+
+Tables can also be created and populated by the results of a query in a
+create-table-as-select (CTAS) statement that includes two parts. The
+SELECT part can be any SELECT statement supported by HiveQL. The CREATE
+part of the CTAS takes the resulting schema from the SELECT part and
+creates the target table with other table properties such as the SerDe
+and storage format.
+
+    CREATE TABLE orc_weblog
+      STORED AS ORC
+    AS
+    SELECT * FROM weblog;
+
+Similarly, query results can be inserted into tables by the INSERT
+clause. INSERT OVERWRITE will overwrite any existing data in the table
+or partition while INSERT INTO will append to the table or partition.
+Multiple insert clauses can be specified in the same query, which
+minimize the number of data scans required.
+
+Hive does not support the OLTP-style INSERT INTO that inserts a new
+record. HiveQL does not have UPDATE and DELETE clauses either. This is
+actually a good design choice as these clauses are not necessary for
+data warehouses. Without them, Hive can use very simple mechanisms to
+deal with reader and writer concurrency.
+
+For queries, HiveQL is pretty much like what you see in SQL. Besides
+common SQL features (e.g. JOIN, WHERE, HAVING, GROUP BY, SORT BY, ...),
+HiveQL also have extensions such as TABLESAMPLE, LATERAL VIEW, OVER,
+etc. We will not dive into the syntax of query statements. Instead, we
+will discuss the stinger initiative, which improves the query
+performance significantly.
+
+A big contribution of stinger initiative is the Optimized Record
+Columnar (ORC) file. In previous example, we use TEXTFILE in which each
+line/row contains a record. In fact, most relational and document
+databases employ such a row-oriented storage format. However,
+column-oriented file format has advantages for data warehouses where
+aggregates are computed over large numbers of data items. For example,
+only required column values on each query are scanned and transferred on
+query execution. Besides, column data is of uniform type and thus may
+achieve better compression, especially if the cardinality of the column
+is low. Before ORC files, Hive already had a columnar file format
+RCFile. However, RCFile is data-type-agnostic and its corresponding
+SerDe serializes a single row at a time. In ORC Files, the SerDe is
+de-emphasized and the ORC file writer is data type aware. So the ORC
+file can decompose a complex column to multiple child columns and
+various type-specific data encoding schemes can be applied to primitive
+data streams to store data efficiently. Besides, the ORC file also
+supports indexes. Well, these indexes are not B-trees but basically data
+statistics and position pointers. The data statistics are used in query
+optimization and to answer simple aggregation queries. They are also
+helpful to avoid unnecessary data read. The position pointers are used
+to locate the index groups and stripes.
+
+The stinger initiative also put a lot of efforts to improve the query
+planning and execution. For example, unnecessary Map-only jobs are
+eliminated. In Hive, a Map-only job is generated when the query planner
+converts a Reduce Join to a Map Join. Now, Hive tries to merge the
+generated Map-only job to its child job if the total size of small
+tables used to build hash tables in the merged job is under a
+configurable threshold. Besides, a correlation optimizer was developed
+to avoid unnecessary data loading and repartitioning so that Hive loads
+the common table only once instead of multiple times and the optimized
+plan will have less number of shuffling phases.
+
+Besides MapReduce, Hive now embeds Apache Tez as an execution engine.
+Compared to MapReduce’s simple scatter/gather model, Tez offers a
+customizable execution architecture that models complex computations as
+dataflow graphs with dynamic performance optimizations. With Tez, Hive
+can translate complex SQL statements into efficient physical plans. For
+example, several reduce sinks can be linked directly in Tez and data can
+be pipelined without the need of temporary HDFS files. This pattern is
+referred to as MRR (Map - reduce - reduce\*). Join is also much easier
+in Tez because a Tez task may take multiple bipartite edges as input
+thus exposing the input relations directly to the join implementation.
+The shuffle join task taking multiple feeds is called multi-parent
+shuffle join (MPJ). Both MRR and MPJ are employed in Hive to speed up a
+wide variety of queries.
+
+Another potential benefit of Tez is to avoid unnecessary disk writes. In
+MapReduce, map outputs are partitioned, sorted and written to disk, then
+pulled, merge-sorted and fed into the reducers. Tez allows for small
+datasets to be handled entirely in memory. This is attractive as many
+analytic queries generate small intermediate datasets after the heavy
+lifting. Moreover, Tez allows complete control over the processing, e.g.
+stopping processing when limits are met. Unfortunately, these feature
+are not used in Hive currently.
+
+There is also work to employ Spark as the third execution engine in
+Hive, called Hive on Spark. Hive on Spark is still in early stage and it
+is not designed to replace Tez or MapReduce as each has different
+strengths depending on the use case. Shark and Spark SQL are similar
+attempts. We will discuss them in details in a separate post.
+
+Finally, let’s briefly talk about the vectorized query execution. But
+first to note that “vectorized” does not mean using vector computing
+facility such as SSE/AVX or CUDA. Instead, it aims to improve the
+runtime execution efficiency by taking advantage of the characteristics
+of modern CPUs. The one-row-at-a-time model of MapReduce is not friendly
+to modern CPUs that heavily relay on pipelines, superscalar (multiple
+issue), and cache. In the vectorized execution model, data are processed
+in batches of rows through the operator tree, whose expressions work on
+column vectors and produce output in column vectors. The vectorized
+expressions are carefully designed to minimize branching and function
+calls. A good compiler may also unroll the tight loops of vectorized
+expressions to effectively make use of the superscalar pipelines without
+delays. Furthermore, the size of batch is configurable and should be
+chosen to fit the entire batch in the processor cache. Experiments show
+that the vectorized execution engine is 3 - 5 times faster than the
+original Hive execution engine.
+
+Invented by Facebook, Hive has been battle proven. Today, Facebook’s
+Hive data warehouse holds 300 PB data with an incoming daily rate of
+about 600 TB! The stinger initiative makes Hive more suitable for
+interactive analytics although the speed is not the fastest in the
+market. In next post, we will discuss several of its competitors, Google
+BigQuery, Cloudera Impala and Apache Drill.
+
+Impala
+------
+
+In previous post, we discussed Apache Hive, which first brought SQL to
+Hadoop. There are actually several SQL on Hadoop solutions competing
+with Hive head-to-head. Today, we will look into Google BigQuery,
+Cloudera Impala and Apache Drill, which all have a root to Google Dremel
+that was designed for interactive analysis of web-scale datasets. In a
+nutshell, they are native massively parallel processing query engine on
+read-only data.
+
+Google BigQuery is the public implementation of Dremel. BigQuery
+provides the core set of features available in Dremel to third party
+developers via a REST API. Impala is Cloudera’s open source SQL query
+engine that runs on Hadoop. It is modeled after Dremel and is
+Apache-licensed. Impala became generally available in May 2013. Drill is
+another open source project inspired by Dremel and is still incubating
+at Apache. Both Impala and Drill can query Hive tables directly. Impala
+actually uses Hive’s metastore.
+
+Hive is basically a front end to parse SQL statements, generate and
+optimize logical plans, translate them into physical plans that are
+finally executed by a backend such as MapReduce or Tez. Dremel and its
+derivatives are different as they execute queries natively without
+translating them into MapReduce jobs. For example, the core Impala
+component is a daemon process that runs on each node of the cluster as
+the query planner, coordinator, and execution engine. Each node can
+accept queries. The planner turns a request into collections of parallel
+plan fragments. The coordinator initiates execution on remote nodes in
+the cluster. The execution engine reads and writes to data files, and
+transmits intermediate query results back to the coordinator node.
+
+The two core technologies of Dremel are columnar storage for nested data
+and the tree architecture for query execution:
+
+Columnar Storage Data is stored in a columnar storage fashion to achieve
+very high compression ratio and scan throughput. Tree Architecture The
+architecture forms a massively parallel distributed multi-level serving
+tree for pushing down a query to the tree and then aggregating the
+results from the leaves. These are good ideas and have been adopted by
+other systems. For example, Hive 0.13 has the ORC file for columnar
+storage and can use Tez as the execution engine that structures the
+computation as a directed acyclic graph. Both (and other innovations)
+help a lot to improve the performance of Hive. However, a recent study
+shows that Impala continues to the performance lead over Hive. So it is
+interesting to ask what else make Impala lead? What follows is a list of
+possible reasons:
+
+-   As a native query engine, Impala avoids the startup overhead of
+    MapReduce/Tez jobs. It is well known that MapReduce programs take
+    some time before all nodes are running at full capacity. In Hive,
+    every query suffers this ?cold start? problem. In contrast, Impala
+    daemon processes are started at boot time, and thus are always ready
+    to execute a query.
+
+-   Hadoop reuses JVM instances to reduce the startup
+    overhead partially. However, it also introduces another problem. For
+    big data processing, we prefer large memory. For example, the
+    recommended physical memory for an Impala node is 128 GB or higher.
+    The nodes in the aforementioned benchmark have 384 GB memory. Such a
+    big heap is actually a big challenge to the garbage collection
+    system of the reused JVM instances. The stop-of-the-world GC pauses
+    may add high latency to queries. Impala’s execution engine, written
+    in C++ native code, avoids this problem. Impala may also do a better
+    job on cache management.
+
+-   Impala process are multithreaded. Importantly, the scanning portion
+    of plan fragments are multithreaded as well as making use of
+    SSE4.2 instructions. The I/O and network systems are also
+    highly multithreaded. Therefore, each single Impala node runs more
+    efficiently by a high level local parallelism.
+
+-   Impala’s query execution is pipelined as much as possible. In case
+    of aggregation, the coordinator starts the final aggregation as soon
+    as the pre-aggregation fragments has started to return results. In
+    contrast, sort and reduce can only start once all the mappers are
+    done in MapReduce. Tez currently does not support pipelined
+    execution yet.
+
+-   MapReduce materializes all intermediate results while Impala streams
+    intermediate results between executors. Tez allows different types
+    of Input/Output including file, TCP, etc. But it seems that Hive
+    does not use this feature yet to avoid unnecessary disk writes.
+
+-   The reducer of MapReduce employs a pull model to get Map
+    output partitions. For sorted output, Tez makes use of the MapReduce
+    ShuffleHandler, which requires downstream Inputs to pull data
+    over HTTP. With multiple reducers (or downstream Inputs) running
+    simultaneously, it is highly likely that some of them will attempt
+    to read from the same map node at the same time, inducing a large
+    number of disk seeks and slowing the effective disk transfer rate.
+    Hive’s query expressions are generated at compile time while Impala
+    does runtime code generation for “big loops” using llvm that can
+    achieve more optimized code.
+
+-   Tez allows complete control over the processing, e.g. stopping
+    processing when limits are met. It is very useful for top-k
+    calculation and straggler handling. Unfortunately, this feature is
+    not used by Hive currently. (BTW, Dremel calculates approximate
+    results for top-k and count-distinct using one-pass algorithms. It
+    is not clear if Impala does the same.)
+
+-   During query execution, Dremel computes a histogram of tablet
+    processing time. If a tablet takes a disproportionately long time to
+    process, it is rescheduled to another server. If trading speed
+    against accuracy is acceptable, Dremel can return the results before
+    scanning all the data, which may reduce the response time
+    significantly as a small fraction of the tables often take a
+    lot longer. It is not clear if Impala implements a similar mechanism
+    although straggler handling was stated on the roadmap.
+
+In summary, Dremel and its derivatives provide us an inexpensive way to
+do interactive big data analytics. The Hadoop ecosystem is now a real
+threat to the traditional relational MPP data warehouse systems. A
+benchmark by AMPLab shows that Amazon Redshift (based on ParAccel by
+Actian) still has the performance lead over Impala but the gap is small.
+With continuous improvements (e.g. both Hive and Impala are working on
+cost based plan optimizer), we can expect SQL on Hadoop/HDFS at higher
+level in near feature.
+
+Shark and Spark SQL
+-------------------
+
+We have reviewed Apache Hive and Cloudera Impala, which are great for ad
+hoc analysis of big data. Today, Facebook’s Hive data warehouse holds
+300 PB data with an incoming daily rate of about 600 TB! It is amazing
+but it does’t mean that most analytics is on that scale (even for
+Facebook). In fact, queries usually focus on a particular subset or time
+window and touch only a small number of columns of tables.
+
+In @Rowstron:2012:NEG, Microsoft Research analyzed 174,000 jobs
+submitted to a production analytics cluster in Microsoft in a single
+month in 2011 and found that the median job input data set size was less
+than 14 GB. They also estimated that the median input data size of the
+Hadoop jobs on the production clusters at Yahoo is less than 12.5 GB. A
+2012 paper from Facebook revealed that Facebook jobs follow a power-law
+distribution with small jobs dominating. From the graphs in the paper,
+it appears that at least 90 The first attempt was Shark, started three
+years ago. Shark built on the Hive codebase. Shark uses the Hive query
+compiler to parse a HiveQL query and generate an abstract syntax tree,
+which is then turned into a logical plan with some basic optimizations.
+Then Shark applies additional optimizations and creates a physical plan
+of RDD operations, then executes them over Spark. It sounds
+straightforward but a naive implementation may be inefficient. The Shark
+team does an excellent job to ensure the high performance. First of all,
+Shark implements a columnar memory store on top of Spark’s native memory
+store to reduce the big memory overhead of JVM. Shark stores all columns
+of primitive types as JVM primitive arrays. Complex data types such as
+map and array are realized and concatenated into a byte array. Since
+each column creates only one JVM object, it helps a lot to reduce the
+effect of garbage collection. Shark also try to maximize the throughput
+of distributed data loading. Each data loading task decides whether each
+column in a partition should be compressed, and chooses the best
+compression scheme for each partition rather than conforming to a global
+scheme. Moreover, Shark implemented a cost-based query optimizer that
+selects more efficient join order based on table and column statistics.
+The statistics may be manually calculated by Hive (ANALYZE TABLE
+statement) and stored in metastore. Otherwise, Shark collects the
+statistics when creating and caching a RDD.
+
+Recently, Shark team announced that they are ending the development of
+Shark and will focus their resources towards Spark SQL. Before diving
+into Spark SQL, we should notice that the Hive community proposed the
+Hive on Spark initiative that will add Spark as the third execution
+engine to Hive. Because the implementation may take significant time and
+resources, the project will take a phased approach.
+
+Back to Spark SQL, which takes a different design from Shark. In Shark,
+Spark is used as the backend engine, which the users does not need to
+know. But Spark SQL is developed as part of Spark. Like using JDBC in
+Java, Spark SQL allows users to mix SQL and imperative/functional
+programming. The core of Spark SQL is SchemaRDD, a new type of RDD that
+has an associated schema. Similar to a table in a traditional relational
+database, SchemaRDDs can be used in relational queries in addition to
+standard RDD functions. A SchemaRDD can be created from an existing RDD
+using the SQLContext.createSchemaRDD() function (or implicitly
+converting an RDD of of Scala case classes by importing a SQLContext). A
+SchemaRDD can also be created by loading data in from external sources,
+e.g. Parquet file, a JSON dataset, or Hive queries through HiveContext.
+
+Similar to Shark, Spark SQL employs an in-memory columnar store.
+Different form Shark, Spark SQL does not use any query optimizations of
+Hive. Hive’s query optimizer has a lot of complexity to address the
+limitations of MapReduce. But many of those do not apply in Spark. So
+Spark SQL designs a new query optimizer framework Catalyst.
+
+Although very young, Spark SQL shows the performance and quality
+inherited from Spark. You definitely should keep your eyes on it.
+
+NoSQL
+=====
+
+NoSQL (Not Only SQL) database, departing from relational model, is a hot
+term nowadays although the name is kind of misleading. The data model
+(e.g., key-value pair, document, or graph) is surely very different from
+the tabular relations in the RDBMS. However, these non-relational data
+models are actually not new. For example, BerkeleyDB, a key-value store,
+was initially released in 1994 (20 years ago as of writing this book).
+In the web and social network era, the motivations of (distributed)
+NoSQL movement are mainly towards to horizontal scaling and high
+availability. By playing with the CAP theorem, many NoSQL stores
+compromise consistency in favor of availability and partition tolerance,
+which also brings the simplicity of design. Note that a distributed
+database system does not have to drop consistency. For instance,
+TeraData and Google’s F1 are ACID-compliant (Atomicity, Consistency,
+Isolation, Durability). However, it makes systems much more complicated
+and also imposes high performance overhead. In this chapter, we will
+look into several popular open source NoSQL solutions.
+
+The CAP Theorem {#sec:cap}
+---------------
+
+In PODC 2000, Eric Brewer conjectured that a distributed shared-data
+system cannot simultaneously provide all three of the following
+desirable properties @Brewer:2000:TRD:
+
+Consistency
+
+:   All nodes see the same data at the same time. It is equivalent to
+    having a single up-to-date copy of the data.
+
+Availability
+
+:   Every request received by a non-failing node in the system must
+    result in a response. Even when severe network failures occur, every
+    request must terminate.
+
+Partition tolerance
+
+:   The system continues to operate despite arbitrary message loss or
+    failure of part of the system.
+
+In 2002, Gilbert and Lynch proved this in the asynchronous[^9] and
+partially synchronous[^10] network models @Gilbert:2002:BCF. Thus it is
+called the CAP Theorem now.
+
+Firstly one should notice that the definition of consistency in CAP is
+different from the one in ACID (Atomicity, Consistency, Isolation,
+Durability). The consistency in ACID means that a transaction preserves
+all the database rules. On the other hand, the consistency in CAP refers
+only to single copy consistency, a strict subset of ACID consistency.
+
+The CAP theorem attempted to justify the design formulation of “2 of 3”
+CAP properties, leaving three viable design options: CP, AP, and CA.
+However, CA is not really a coherent option in distributed computing
+because a system that is not Partition-tolerant will be forced to give
+up Consistency or Availability during a partition[^11]. Therefore, the
+theorem is generally interpreted as: during a network partition, a
+distributed system must choose either Consistency or Availability. Note
+that CAP should allow perfect C and A most of the time since partitions
+are rare. In fact, a simple centralized algorithm meets these
+requirements. In practice, it is common assuming that a single
+datacenter has no partitions within, and thus allows the designs for CA
+within a single site.
+
+Furthermore, a distributed system may not be simplify classified as CP
+or AP because the choice between C and A can occur many times within the
+same system at very fine granularity @Brewer:2012. Not only can
+subsystems make different choices, but the choice can change according
+to the operation or even the specific data or user involved.
+
+In the CAP theorem, the three properties are treated as binary. For
+example, Gilbert and Lynch require 100% availability for simplicity. But
+the availability could be continuous from 0 to 100 percent in real
+world. The consistency can also have many levels, e.g. different C in
+CAP and ACID. Due to the latency, the system may also have disagreement
+about whether a partition exists. In practice, the essence of CAP takes
+place during a timeout, a period when the program must make the
+partition decision. Pragmatically a partition is a time bound on
+communication. Therefore, there is no global notion of a partition,
+since some nodes might detect a partition, and others might not.
 
 ZooKeeper
 ---------
@@ -1661,12 +2243,12 @@ synchronization, group membership, etc. ZooKeeper is a highly reliable
 distributed coordination service for all these use cases @ZooKeeper.
 Higher order constructs, e.g. barriers, message queues, locks, two-phase
 commit, and leader election, can also be implemented with ZooKeeper. In
-the rest of book, we will find that many distributed services depends on
-ZooKeeper, which is actually the goal of ZooKeeper: implementing the
+the rest of book, we will find that many distributed services depend on
+the ZooKeeper, which is actually the goal of ZooKeeper: implementing the
 coordination service once and well and shared by many distributed
 applications.
 
-Essentially, ZooKeeper is a distributed in-memory CP[^11] data store
+Essentially, ZooKeeper is a distributed in-memory CP[^12] data store
 that has the following guarantees:
 
 Sequential Consistency
@@ -1722,14 +2304,15 @@ the data. And when it performs an update or a delete, it must supply the
 version of the data. If the version it supplies doesn’t match the
 current version of the data, the update will fail.
 
-Clients can also set watches on znodes. Watches are one time triggers.
-Changes to a znode trigger the watch associated with it and then clear
-the watch. When a watch triggers, the client will receive a notification
-from ZooKeeper. Watches are sent asynchronously to watchers. But
-ZooKeeper guarantees that a client will see a watch event for a znode it
-is watching before seeing the new data that corresponds to that znode.
-Besides, the order of watch events from ZooKeeper corresponds to the
-order of the updates as seen by the ZooKeeper service.
+Clients can also set watches on znodes. A watches is an one-time
+trigger. Changes to a znode trigger the watch associated with it and
+then clear the watch. When a watch triggers, the client will receive a
+notification from ZooKeeper. Watches are sent asynchronously to
+watchers. But ZooKeeper guarantees that a client will see a watch event
+for a znode it is watching before seeing the new data that corresponds
+to that znode. Besides, the order of watch events from ZooKeeper
+corresponds to the order of the updates as seen by the ZooKeeper
+service.
 
 Specially, ZooKeeper also has ephemeral nodes, which exist as long as
 the session that created the znode is active. When the session ends, the
@@ -1844,89 +2427,6 @@ communication channels are assumed FIFO:
 -   Followers deliver the message when they receive the COMMIT from
     the leader.
 
-NoSQL
-=====
-
-NoSQL (Not Only SQL) database, departing from relational model, is a hot
-term nowadays although the name is kind of misleading. The data model
-(e.g., key-value pair, document, or graph) is surely very different from
-the tabular relations in the RDBMS. However, these non-relational data
-models are actually not new. For example, BerkeleyDB, a key-value store,
-was initially released in 1994 (20 years ago as writing this book). In
-the web and social network era, the motivations of (distributed) NoSQL
-movement are mainly towards to horizontal scaling and high availability.
-By playing with the CAP theorem, many NoSQL stores compromise
-consistency in favor of availability and partition tolerance, which also
-brings the simplicity of design. Note that a distributed database system
-does not has to drop consistency. For instance, TeraData and Google’s F1
-are ACID-compliant (Atomicity, Consistency, Isolation, Durability).
-However, it makes systems much more complicated and also imposes high
-performance overhead. In this chapter, we will look into several popular
-open source NoSQL solutions.
-
-The CAP Theorem {#sec:cap}
----------------
-
-In PODC 2000, Eric Brewer conjectured that a distributed shared-data
-system cannot simultaneously provide all three of the following
-desirable properties @Brewer:2000:TRD:
-
-Consistency
-
-:   All nodes see the same data at the same time. It is equivalent to
-    having a single up-to-date copy of the data.
-
-Availability
-
-:   Every request received by a non-failing node in the system must
-    result in a response. Even when severe network failures occur, every
-    request must terminate.
-
-Partition tolerance
-
-:   The system continues to operate despite arbitrary message loss or
-    failure of part of the system.
-
-In 2002, Gilbert and Lynch proved this in the asynchronous[^12] and
-partially synchronous[^13] network models @Gilbert:2002:BCF. Thus it is
-called the CAP Theorem now.
-
-Firstly one should notice that the definition of consistency in CAP is
-different from the one in ACID (Atomicity, Consistency, Isolation,
-Durability). The consistency in ACID means that a transaction preserves
-all the database rules. On the other hand, the consistency in CAP refers
-only to single copy consistency, a strict subset of ACID consistency.
-
-The CAP theorem attempted to justify the design formulation of “2 of 3”
-CAP properties, leaving three viable design options: CP, AP, and CA.
-However, CA is not really a coherent option in distributed computing
-because a system that is not Partition-tolerant will be forced to give
-up Consistency or Availability during a partition[^14]. Therefore, the
-theorem is generally interpreted as: during a network partition, a
-distributed system must choose either Consistency or Availability. Note
-that CAP should allow perfect C and A most of the time since partitions
-are rare. In fact, a simple centralized algorithm meets these
-requirements. In practice, it is common assuming that a single
-datacenter has no partitions within, and thus allows the designs for CA
-within a single site.
-
-Furthermore, a distributed system may not be simplify classified as CP
-or AP because the choice between C and A can occur many times within the
-same system at very fine granularity @Brewer:2012. Not only can
-subsystems make different choices, but the choice can change according
-to the operation or even the specific data or user involved.
-
-In the CAP theorem, the three properties are treated as binary. For
-example, Gilbert and Lynch require 100% availability for simplicity. But
-the availability could be continuous from 0 to 100 percent in real
-world. The consistency can also have many levels, e.g. different C in
-CAP and ACID. Due to the latency, the system may also have disagreement
-about whether a partition exists. In practice, the essence of CAP takes
-place during a timeout, a period when the program must make the
-partition decision. Pragmatically a partition is a time bound on
-communication. Therefore, there is no global notion of a partition,
-since some nodes might detect a partition, and others might not.
-
 HBase
 -----
 
@@ -1996,11 +2496,11 @@ So how does HBase provide random, realtime read/write access on top HDFS
 concept of Store. In HBase, a Store corresponds to a column family in a
 Region (see next section for details). A Store hosts a MemStore and a
 set of zero or more StoreFiles. The MemStore holds in-memory
-modifications to the Store [^15]. When the MemStore reaches a certain
+modifications to the Store.[^13] When the MemStore reaches a certain
 size or the total size of all MemStores reaches the upper limit (both
 are configureable), the sorted key-value pairs (the key is a (row,
 column, version) tuple) in MemStore will flushed into a HDFS file called
-StoreFile in HFile format [^16].
+StoreFile in HFile format.[^14]
 
 HFile is based on SSTable file in the BigTable. An SSTable provides a
 persistent, ordered immutable map from keys to values, where both keys
@@ -2356,8 +2856,8 @@ accounts, settings, and preferences, etc. In general, the applications
 should be able to get the keys “for free”, without having to perform any
 queries to discover them, e.g. user id, session id, etc. If Bitcask is
 used as storage backend, Riak also supports automatic expiry of keys,
-which is helpful to session management [^17]. Since it is schemaless,
-binaries such as images and PDF documents can be stored directly [^18].
+which is helpful to session management.[^15] Since it is schemaless,
+binaries such as images and PDF documents can be stored directly.[^16]
 On the other hand, structured data (e.g. relational tables) should be
 denormalized and usually stored as JSON or XML.
 
@@ -2569,7 +3069,7 @@ Riak uses the concept of “sloppy quorum”. That is, all read and write
 operations are performed on the first $N$ healthy nodes from the
 preference list, which may not always be the first $N$ nodes encountered
 while walking the consistent hashing ring. When a node is unavailable,
-the neighboring nodes will temporarily accept its write requests [^19].
+the neighboring nodes will temporarily accept its write requests.[^17]
 When the node returns, data is transferred to the primary node via the
 “hinted handoff” process.
 
@@ -3040,569 +3540,70 @@ applications evolve. The JSON-like documents make the integration of
 data in some applications easier and faster. With careful setup, MongoDB
 clusters can also provide scalability and high availability.
 
-Hadoop Data Warehouse
-=====================
-
-With big data at hand, we want to crunch numbers from them. Of course,
-we have to use some distributed parallel computing frameworks given the
-large data size. In this chapter, we will go through several such
-frameworks. Naturally, MapReduce is our first topic as it started the so
-called big data analytics.
-
-After years of practice, the community has realized these problems and
-try to address them in different ways. For example, Apache Spark aims on
-the speed by keeping data in memory. Apache Pig provides a DSL and Hive
-provides a SQL dialect on the top of MapReduce to ease the programming.
-Google Dremel/Cloudera Impala target on interactive analysis with SQL
-queries. Google Pregel/Apache Giraph concerns computing problems on
-large graphs. Apache Storm focuses on real time event processing. We
-will look into all of them in this series.
-
-Pig
----
-
-MapReduce is a good tool for offline, ad-hoc analytics, which often
-involves multiple successive jobs. A single MapReduce job essentially
-performs a group-by aggregation in a massively parallel way. However,
-its programming model is very low level. Custom code has to be written
-for even simple operations like projection and filtering. It is even
-more tedious and verbose to implement common relational operators such
-as join. Several efforts have been devoted to simplify the development
-of MapReduce programs by providing high level DSLs that can be
-translated to native MapReduce code. Different from many other projects
-that bring SQL to Hadoop, Pig is special in that it provides a
-procedural (data flow) programming language Pig Latin as it was designed
-for experienced programmers. However, SQL programmers won’t have
-difficulties to understand Pig Latin programs because most statements
-just look like SQL clauses.
-
-A Pig Latin program is a sequence of steps, each of which carries out a
-single data processing at fairly high level, e.g. loading, filtering,
-grouping, etc. The input data can be loaded from the file system or
-HBase by the operator LOAD:
-
-    grunt> persons = LOAD 'person.csv' USING PigStorage(',') AS (name: chararray, age:int, address: (street: chararray, city: chararray, state: chararray, zip: int));
-
-where grunt&gt; is the prompt of Pig console and PigStorage is a
-built-in deserializer for structured text files. Various deserializers
-are available. User defined functions (UDFs) can also be used to parse
-data in unsupported format. The AS clause defines a schema that assigns
-names to fields and declares types for fields. Although schemas are
-optional, programmer are encouraged to use them whenever possible. Note
-that such a “schema on read” is very different from the relational
-approach that requires rigid predefined schemas. Therefore, there is no
-need copying or reorganizing the data.
-
-Pig has a rich data model. Primitive data types include int, long,
-float, double, chararray, bytearray, boolean, datetime, biginteger and
-bigdecimal. And complex data types include tuple, bag (a collection of
-tuples), and map (a set of key value pairs). Different from relational
-model, the fields of tuples can be any data types. Similarly, the map
-values can be any types (the map key is always type chararray). That is,
-nested data structures are supported.
-
-Once the input data have been specified, there is a rich set of
-relational operators to transform them. The FOREACH...GENERATE operator,
-corresponding to the map tasks of MapReduce, produces a new bag by
-projection, applying functions, etc.
-
-    grunt> flatten_persons = FOREACH persons GENERATE name, age, FLATTEN(address);
-
-where FLATTEN is a function to remove one level of nesting. With the
-operator DESCRIBE, we can see the schema difference between persons and
-flatten\_persons:
-
-    grunt> DESCRIBE persons;
-    persons: {name: chararray,age: int,address: (street: chararray,city: chararray,state: chararray,zip: int)}
-    grunt> DESCRIBE flatten_persons;
-    flatten_persons: {name: chararray,age: int,address::street: chararray,address::city: chararray,address::state: chararray,address::zip: int}
-
-Frequently, we want to filter the data based on some condition.
-
-    grunt> adults = FILTER flatten_persons BY age > 18;
-
-Aggregations can be done by GROUP operator, which corresponds to the
-reduce tasks in MapReduce.
-
-    grunt> grouped_by_state = GROUP flatten_persons BY state;
-    grunt> DESCRIBE grouped_by_state;
-    grouped_by_state: {group: chararray,flatten_persons: {(name: chararray,age: int,address::street: chararray,address::city: chararray,address::state: chararray,address::zip: int)}}
-
-The result of a GROUP operation is a relation that includes one tuple
-per group of two fields:
-
-The first field is named “group” and is the same type as the group key.
-The second field takes the name of the original relation and is type
-bag. We can also cogroup two or more relations.
-
-    grunt> cogrouped_by_name = COGROUP persons BY name, flatten_persons BY name;
-    grunt> DESCRIBE cogrouped_by_name;
-    cogrouped_by_name: {group: chararray,persons: {(name: chararray,age: int,address: (street: chararray,city: chararray,state: chararray,zip: int))},flatten_persons: {(name: chararray,age: int,address::street: chararray,address::city: chararray,address::state: chararray,address::zip: int)}}
-
-In fact, the GROUP and COGROUP operators are identical. Both operators
-work with one or more relations. For readability, GROUP is used in
-statements involving one relation while COGROUP is used when involving
-two or more relations.
-
-A closely related but different operator is JOIN, which is a syntactic
-sugar of COGROUP followed by FLATTEN.
-
-    grunt> joined_by_name = JOIN persons BY name, flatten_persons BY name;
-    grunt> DESCRIBE joined_by_name;
-    joined_by_name: {persons::name: chararray,persons::age: int,persons::address: (street: chararray,city: chararray,state: chararray,zip: int),flatten_persons::name: chararray,flatten_persons::age: int,flatten_persons::address::street: chararray,flatten_persons::address::city: chararray,flatten_persons::address::state: chararray,flatten_persons::address::zip: int}
-
-Overall, a Pig Latin program is like a handcrafted query execution plan.
-In contrast, a SQL based solution, e.g. Hive, relays on an execution
-planner to automatically translate SQL statements to an execution plan.
-Like SQL, Pig Latin has no control structures. But it is possible to
-embed Pig Latin statements and Pig commands in the Python, JavaScript
-and Groovy scripts.
-
-When you run the above statements in the console of Pig, you will notice
-that they finish instantaneously. It is because Pig is lazy and there is
-no really computation happened. For example, LOAD does not really read
-the data but just returns a handle to a bag/relation. Only when a STORE
-command is issued, Pig materialize the result of a Pig Latin expression
-sequence to the file system. Before a STORE command, Pig just builds a
-logical plan for every user defined bag. At the point of a STORE
-command, the logical plan is compiled into a physical plan (a directed
-acyclic graph of MapReduce jobs) and is executed.
-
-It is possible to replace MapReduce with other execution engines in Pig.
-For example, there are efforts to run Pig on top of Spark. However, is
-it necessary? Spark already provides many relational operators and the
-host language Scala is very nice to write concise and expressive
-programs.
-
-In summary, Pig Latin is a simple and easy to use DSL that makes
-MapReduce programming a lot easier. Meanwhile, Pig keeps the flexibility
-of MapReduce to process schemaless data in plain files. There is no need
-to do slow and complex ETL tasks before analysis, which makes Pig a
-great tool for quick ad-hoc analytics such as web log analysis. In the
-next post, we will discuss Hive, a major competitor of Pig, which first
-brought SQL to Hadoop.
-
-Hive
-----
-
-In previous post, we discussed Apache Pig that provides a data flow DSL
-Pig Latin to ease the MapReduce programming. Although many statements in
-Pig Latin look just like SQL clauses, it is a procedural programming
-language. Today we will discuss Apache Hive that first brought SQL to
-Hadoop. Similar to Pig, Hive translates its own dialect of SQL (HiveQL)
-queries to a directed acyclic graph of MapReduce (or Tez since 0.13)
-jobs. However, the difference between Pig and Hive is not only
-procedural vs declarative. Pig is a relatively thin layer on top of
-MapReduce for offline analytics. But Hive is towards a data warehouse.
-With the recent stinger initiative, Hive is closer to interactive
-analytics by 100x performance improvement.
-
-Pig uses a “schema on read” approach that users define the (optional)
-schema on loading data. In contrast, Hive requires users to provides
-schema, (optional) storage format and serializer/deserializer (called
-SerDe) when creating a table. These information is saved in the metadata
-repository (by default an embedded Derby database) and will be used
-whenever the table is referenced, e.g. to typecheck the expressions in
-the query and to prune partitions based on query predicates. The
-metadata store also provides data discovery (e.g. SHOW TABLES and
-DESCRIBE) that enables users to discover and explore relevant and
-specific data in the warehouse. The following example shows how to
-create a database and a table.
-
-    CREATE DATABASE portal;
-    USE portal;
-    CREATE TABLE weblog (
-      host STRING,
-      identity STRING,
-      user STRING,
-      time STRING,
-      request STRING,
-      status STRING,
-      size STRING,
-      referer STRING,
-      agent STRING)
-    ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.RegexSerDe'
-    WITH SERDEPROPERTIES (
-      "input.regex" = "([^ ]*) ([^ ]*) ([^ ]*) (-|\\[[^\\]]*\\]) ([^ \"]*|\"[^\"]*\") (-|[0-9]*) (-|[0-9]*)(?: ([^ \"]*|\"[^\"]*\") ([^ \"]*|\"[^\"]*\"))?"
-    )
-    STORED AS TEXTFILE;
-
-The interesting part of example is the bottom five lines that specify
-custom regular expression SerDe and plain text file format. If ROW
-FORMAT is not specified or ROW FORMAT DELIMITED is specified, a native
-SerDe is used. Besides plain text files, many other file formats are
-supported. Later we will discuss more details on ORC files, which
-improve query performance significantly.
-
-Different from relational data warehouses, Hive supports nested data
-models with complex types array, map, and struct. For example, the
-following statement creates a table with a complex schema.
-
-    CREATE TABLE complex_table(
-      id STRING,
-      value FLOAT,
-      list_of_maps ARRAY<MAP<STRING, STRUCT<x:INT, y:INT>>>
-    );
-
-By default, all the data files for a table are located in a single
-directory. Tables can be physically partitioned based on values of one
-or more columns with the PARTITIONED BY clause. A separate directory is
-created for each distinct value combination in the partition columns.
-Partitioning can greatly speed up queries that test those columns. Note
-that the partitioning columns are not part of the table data and the
-partition column values are encoded in the directory path of that
-partition (and also stored in the metadata store). Moreover, tables or
-partitions can be bucketed using CLUSTERED BY columns, and data can be
-sorted within that bucket via SORT BY columns.
-
-Now we can load some data into our table:
-
-    LOAD DATA LOCAL INPATH 'portal/logs' OVERWRITE INTO TABLE weblog;
-
-Note that Hive does not do any verification of data against the schema
-or transformation while loading data into tables. The input files are
-simply copied or moved into the Hive’s file system namespace. If the
-keyword LOCAL is specified, the input files are assumed in the local
-file system, otherwise in HDFS. While not necessary in this example, the
-keyword OVERWRITE signifies that existing data in the table is
-overwritten. If the OVERWRITE keyword is omitted, data files are
-appended to existing data sets.
-
-Tables can also be created and populated by the results of a query in a
-create-table-as-select (CTAS) statement that includes two parts. The
-SELECT part can be any SELECT statement supported by HiveQL. The CREATE
-part of the CTAS takes the resulting schema from the SELECT part and
-creates the target table with other table properties such as the SerDe
-and storage format.
-
-    CREATE TABLE orc_weblog
-      STORED AS ORC
-    AS
-    SELECT * FROM weblog;
-
-Similarly, query results can be inserted into tables by the INSERT
-clause. INSERT OVERWRITE will overwrite any existing data in the table
-or partition while INSERT INTO will append to the table or partition.
-Multiple insert clauses can be specified in the same query, which
-minimize the number of data scans required.
-
-Hive does not support the OLTP-style INSERT INTO that inserts a new
-record. HiveQL does not have UPDATE and DELETE clauses either. This is
-actually a good design choice as these clauses are not necessary for
-data warehouses. Without them, Hive can use very simple mechanisms to
-deal with reader and writer concurrency.
-
-For queries, HiveQL is pretty much like what you see in SQL. Besides
-common SQL features (e.g. JOIN, WHERE, HAVING, GROUP BY, SORT BY, ...),
-HiveQL also have extensions such as TABLESAMPLE, LATERAL VIEW, OVER,
-etc. We will not dive into the syntax of query statements. Instead, we
-will discuss the stinger initiative, which improves the query
-performance significantly.
-
-A big contribution of stinger initiative is the Optimized Record
-Columnar (ORC) file. In previous example, we use TEXTFILE in which each
-line/row contains a record. In fact, most relational and document
-databases employ such a row-oriented storage format. However,
-column-oriented file format has advantages for data warehouses where
-aggregates are computed over large numbers of data items. For example,
-only required column values on each query are scanned and transferred on
-query execution. Besides, column data is of uniform type and thus may
-achieve better compression, especially if the cardinality of the column
-is low. Before ORC files, Hive already had a columnar file format
-RCFile. However, RCFile is data-type-agnostic and its corresponding
-SerDe serializes a single row at a time. In ORC Files, the SerDe is
-de-emphasized and the ORC file writer is data type aware. So the ORC
-file can decompose a complex column to multiple child columns and
-various type-specific data encoding schemes can be applied to primitive
-data streams to store data efficiently. Besides, the ORC file also
-supports indexes. Well, these indexes are not B-trees but basically data
-statistics and position pointers. The data statistics are used in query
-optimization and to answer simple aggregation queries. They are also
-helpful to avoid unnecessary data read. The position pointers are used
-to locate the index groups and stripes.
-
-The stinger initiative also put a lot of efforts to improve the query
-planning and execution. For example, unnecessary Map-only jobs are
-eliminated. In Hive, a Map-only job is generated when the query planner
-converts a Reduce Join to a Map Join. Now, Hive tries to merge the
-generated Map-only job to its child job if the total size of small
-tables used to build hash tables in the merged job is under a
-configurable threshold. Besides, a correlation optimizer was developed
-to avoid unnecessary data loading and repartitioning so that Hive loads
-the common table only once instead of multiple times and the optimized
-plan will have less number of shuffling phases.
-
-Besides MapReduce, Hive now embeds Apache Tez as an execution engine.
-Compared to MapReduce’s simple scatter/gather model, Tez offers a
-customizable execution architecture that models complex computations as
-dataflow graphs with dynamic performance optimizations. With Tez, Hive
-can translate complex SQL statements into efficient physical plans. For
-example, several reduce sinks can be linked directly in Tez and data can
-be pipelined without the need of temporary HDFS files. This pattern is
-referred to as MRR (Map - reduce - reduce\*). Join is also much easier
-in Tez because a Tez task may take multiple bipartite edges as input
-thus exposing the input relations directly to the join implementation.
-The shuffle join task taking multiple feeds is called multi-parent
-shuffle join (MPJ). Both MRR and MPJ are employed in Hive to speed up a
-wide variety of queries.
-
-Another potential benefit of Tez is to avoid unnecessary disk writes. In
-MapReduce, map outputs are partitioned, sorted and written to disk, then
-pulled, merge-sorted and fed into the reducers. Tez allows for small
-datasets to be handled entirely in memory. This is attractive as many
-analytic queries generate small intermediate datasets after the heavy
-lifting. Moreover, Tez allows complete control over the processing, e.g.
-stopping processing when limits are met. Unfortunately, these feature
-are not used in Hive currently.
-
-There is also work to employ Spark as the third execution engine in
-Hive, called Hive on Spark. Hive on Spark is still in early stage and it
-is not designed to replace Tez or MapReduce as each has different
-strengths depending on the use case. Shark and Spark SQL are similar
-attempts. We will discuss them in details in a separate post.
-
-Finally, let’s briefly talk about the vectorized query execution. But
-first to note that “vectorized” does not mean using vector computing
-facility such as SSE/AVX or CUDA. Instead, it aims to improve the
-runtime execution efficiency by taking advantage of the characteristics
-of modern CPUs. The one-row-at-a-time model of MapReduce is not friendly
-to modern CPUs that heavily relay on pipelines, superscalar (multiple
-issue), and cache. In the vectorized execution model, data are processed
-in batches of rows through the operator tree, whose expressions work on
-column vectors and produce output in column vectors. The vectorized
-expressions are carefully designed to minimize branching and function
-calls. A good compiler may also unroll the tight loops of vectorized
-expressions to effectively make use of the superscalar pipelines without
-delays. Furthermore, the size of batch is configurable and should be
-chosen to fit the entire batch in the processor cache. Experiments show
-that the vectorized execution engine is 3 - 5 times faster than the
-original Hive execution engine.
-
-Invented by Facebook, Hive has been battle proven. Today, Facebook’s
-Hive data warehouse holds 300 PB data with an incoming daily rate of
-about 600 TB! The stinger initiative makes Hive more suitable for
-interactive analytics although the speed is not the fastest in the
-market. In next post, we will discuss several of its competitors, Google
-BigQuery, Cloudera Impala and Apache Drill.
-
-Impala
-------
-
-In previous post, we discussed Apache Hive, which first brought SQL to
-Hadoop. There are actually several SQL on Hadoop solutions competing
-with Hive head-to-head. Today, we will look into Google BigQuery,
-Cloudera Impala and Apache Drill, which all have a root to Google Dremel
-that was designed for interactive analysis of web-scale datasets. In a
-nutshell, they are native massively parallel processing query engine on
-read-only data.
-
-Google BigQuery is the public implementation of Dremel. BigQuery
-provides the core set of features available in Dremel to third party
-developers via a REST API. Impala is Cloudera’s open source SQL query
-engine that runs on Hadoop. It is modeled after Dremel and is
-Apache-licensed. Impala became generally available in May 2013. Drill is
-another open source project inspired by Dremel and is still incubating
-at Apache. Both Impala and Drill can query Hive tables directly. Impala
-actually uses Hive’s metastore.
-
-Hive is basically a front end to parse SQL statements, generate and
-optimize logical plans, translate them into physical plans that are
-finally executed by a backend such as MapReduce or Tez. Dremel and its
-derivatives are different as they execute queries natively without
-translating them into MapReduce jobs. For example, the core Impala
-component is a daemon process that runs on each node of the cluster as
-the query planner, coordinator, and execution engine. Each node can
-accept queries. The planner turns a request into collections of parallel
-plan fragments. The coordinator initiates execution on remote nodes in
-the cluster. The execution engine reads and writes to data files, and
-transmits intermediate query results back to the coordinator node.
-
-The two core technologies of Dremel are columnar storage for nested data
-and the tree architecture for query execution:
-
-Columnar Storage Data is stored in a columnar storage fashion to achieve
-very high compression ratio and scan throughput. Tree Architecture The
-architecture forms a massively parallel distributed multi-level serving
-tree for pushing down a query to the tree and then aggregating the
-results from the leaves. These are good ideas and have been adopted by
-other systems. For example, Hive 0.13 has the ORC file for columnar
-storage and can use Tez as the execution engine that structures the
-computation as a directed acyclic graph. Both (and other innovations)
-help a lot to improve the performance of Hive. However, a recent study
-shows that Impala continues to the performance lead over Hive. So it is
-interesting to ask what else make Impala lead? What follows is a list of
-possible reasons:
-
--   As a native query engine, Impala avoids the startup overhead of
-    MapReduce/Tez jobs. It is well known that MapReduce programs take
-    some time before all nodes are running at full capacity. In Hive,
-    every query suffers this ?cold start? problem. In contrast, Impala
-    daemon processes are started at boot time, and thus are always ready
-    to execute a query.
-
--   Hadoop reuses JVM instances to reduce the startup
-    overhead partially. However, it also introduces another problem. For
-    big data processing, we prefer large memory. For example, the
-    recommended physical memory for an Impala node is 128 GB or higher.
-    The nodes in the aforementioned benchmark have 384 GB memory. Such a
-    big heap is actually a big challenge to the garbage collection
-    system of the reused JVM instances. The stop-of-the-world GC pauses
-    may add high latency to queries. Impala’s execution engine, written
-    in C++ native code, avoids this problem. Impala may also do a better
-    job on cache management.
-
--   Impala process are multithreaded. Importantly, the scanning portion
-    of plan fragments are multithreaded as well as making use of
-    SSE4.2 instructions. The I/O and network systems are also
-    highly multithreaded. Therefore, each single Impala node runs more
-    efficiently by a high level local parallelism.
-
--   Impala’s query execution is pipelined as much as possible. In case
-    of aggregation, the coordinator starts the final aggregation as soon
-    as the pre-aggregation fragments has started to return results. In
-    contrast, sort and reduce can only start once all the mappers are
-    done in MapReduce. Tez currently does not support pipelined
-    execution yet.
-
--   MapReduce materializes all intermediate results while Impala streams
-    intermediate results between executors. Tez allows different types
-    of Input/Output including file, TCP, etc. But it seems that Hive
-    does not use this feature yet to avoid unnecessary disk writes.
-
--   The reducer of MapReduce employs a pull model to get Map
-    output partitions. For sorted output, Tez makes use of the MapReduce
-    ShuffleHandler, which requires downstream Inputs to pull data
-    over HTTP. With multiple reducers (or downstream Inputs) running
-    simultaneously, it is highly likely that some of them will attempt
-    to read from the same map node at the same time, inducing a large
-    number of disk seeks and slowing the effective disk transfer rate.
-    Hive’s query expressions are generated at compile time while Impala
-    does runtime code generation for “big loops” using llvm that can
-    achieve more optimized code.
-
--   Tez allows complete control over the processing, e.g. stopping
-    processing when limits are met. It is very useful for top-k
-    calculation and straggler handling. Unfortunately, this feature is
-    not used by Hive currently. (BTW, Dremel calculates approximate
-    results for top-k and count-distinct using one-pass algorithms. It
-    is not clear if Impala does the same.)
-
--   During query execution, Dremel computes a histogram of tablet
-    processing time. If a tablet takes a disproportionately long time to
-    process, it is rescheduled to another server. If trading speed
-    against accuracy is acceptable, Dremel can return the results before
-    scanning all the data, which may reduce the response time
-    significantly as a small fraction of the tables often take a
-    lot longer. It is not clear if Impala implements a similar mechanism
-    although straggler handling was stated on the roadmap.
-
-In summary, Dremel and its derivatives provide us an inexpensive way to
-do interactive big data analytics. The Hadoop ecosystem is now a real
-threat to the traditional relational MPP data warehouse systems. A
-benchmark by AMPLab shows that Amazon Redshift (based on ParAccel by
-Actian) still has the performance lead over Impala but the gap is small.
-With continuous improvements (e.g. both Hive and Impala are working on
-cost based plan optimizer), we can expect SQL on Hadoop/HDFS at higher
-level in near feature.
-
-Shark and Spark SQL
--------------------
-
-We have reviewed Apache Hive and Cloudera Impala, which are great for ad
-hoc analysis of big data. Today, Facebook’s Hive data warehouse holds
-300 PB data with an incoming daily rate of about 600 TB! It is amazing
-but it does’t mean that most analytics is on that scale (even for
-Facebook). In fact, queries usually focus on a particular subset or time
-window and touch only a small number of columns of tables.
-
-In @Rowstron:2012:NEG, Microsoft Research analyzed 174,000 jobs
-submitted to a production analytics cluster in Microsoft in a single
-month in 2011 and found that the median job input data set size was less
-than 14 GB. They also estimated that the median input data size of the
-Hadoop jobs on the production clusters at Yahoo is less than 12.5 GB. A
-2012 paper from Facebook revealed that Facebook jobs follow a power-law
-distribution with small jobs dominating. From the graphs in the paper,
-it appears that at least 90 The first attempt was Shark, started three
-years ago. Shark built on the Hive codebase. Shark uses the Hive query
-compiler to parse a HiveQL query and generate an abstract syntax tree,
-which is then turned into a logical plan with some basic optimizations.
-Then Shark applies additional optimizations and creates a physical plan
-of RDD operations, then executes them over Spark. It sounds
-straightforward but a naive implementation may be inefficient. The Shark
-team does an excellent job to ensure the high performance. First of all,
-Shark implements a columnar memory store on top of Spark’s native memory
-store to reduce the big memory overhead of JVM. Shark stores all columns
-of primitive types as JVM primitive arrays. Complex data types such as
-map and array are realized and concatenated into a byte array. Since
-each column creates only one JVM object, it helps a lot to reduce the
-effect of garbage collection. Shark also try to maximize the throughput
-of distributed data loading. Each data loading task decides whether each
-column in a partition should be compressed, and chooses the best
-compression scheme for each partition rather than conforming to a global
-scheme. Moreover, Shark implemented a cost-based query optimizer that
-selects more efficient join order based on table and column statistics.
-The statistics may be manually calculated by Hive (ANALYZE TABLE
-statement) and stored in metastore. Otherwise, Shark collects the
-statistics when creating and caching a RDD.
-
-Recently, Shark team announced that they are ending the development of
-Shark and will focus their resources towards Spark SQL. Before diving
-into Spark SQL, we should notice that the Hive community proposed the
-Hive on Spark initiative that will add Spark as the third execution
-engine to Hive. Because the implementation may take significant time and
-resources, the project will take a phased approach.
-
-Back to Spark SQL, which takes a different design from Shark. In Shark,
-Spark is used as the backend engine, which the users does not need to
-know. But Spark SQL is developed as part of Spark. Like using JDBC in
-Java, Spark SQL allows users to mix SQL and imperative/functional
-programming. The core of Spark SQL is SchemaRDD, a new type of RDD that
-has an associated schema. Similar to a table in a traditional relational
-database, SchemaRDDs can be used in relational queries in addition to
-standard RDD functions. A SchemaRDD can be created from an existing RDD
-using the SQLContext.createSchemaRDD() function (or implicitly
-converting an RDD of of Scala case classes by importing a SQLContext). A
-SchemaRDD can also be created by loading data in from external sources,
-e.g. Parquet file, a JSON dataset, or Hive queries through HiveContext.
-
-Similar to Shark, Spark SQL employs an in-memory columnar store.
-Different form Shark, Spark SQL does not use any query optimizations of
-Hive. Hive’s query optimizer has a lot of complexity to address the
-limitations of MapReduce. But many of those don?t apply in Spark. So
-Spark SQL designs a new query optimizer framework Catalyst.
-
-Although very young, Spark SQL shows the performance and quality
-inherited from Spark. You definitely should keep your eyes on it.
-
 Stream Processing
 =================
 
 Storm
 -----
 
-Akka
-----
-
 Spark Streaming
 ---------------
 
+Akka
+----
+
+Cluster Management and DevOp
+============================
+
+Large-scale computer clusters are challenging to utilize efficiently.
+One of the critical tasks of cluster management is to dispatch work for
+the cluster to perform. The scheduler, assigning jobs to machines, has
+to take account of a variety of requirements and policies. With the
+ever-growing size of data, cluster, and workload, the scheduler may
+become a scalability bottleneck @Schwarzkopf:2013:OFS.
+
+Mesos
+-----
+
+![Mesos Architecture](images/mesos-architecture.jpg)
+
+Mesos @Hindman:2011:MPF is another cluster resource management software
+from Apache. Mesos uses the master-slave architecture similar to YARN
+but with a very different design goal. Mesos aims to enable sharing
+clusters between multiple diverse cluster computing frameworks, such as
+Hadoop, Spark[^18] and MPI. This improves cluster utilization and avoids
+per-framework data replication.
+
+Mesos introduces a distributed two-level scheduling mechanism[^19] and
+delegates control over scheduling to the frameworks. This allows
+frameworks to implement diverse approaches to various problems in the
+cluster and to evolve these solutions independently.
+
+Mesos consists of a master process that manages slave daemons running on
+each cluster node, and frameworks that run tasks on these slaves. The
+master implements resource sharing using through the abstraction
+<span>*resource offer*</span>, which encapsulates a bundle of resources
+that a framework can allocate on a cluster node to run tasks. The master
+decides how many resources to offer to each framework according to some
+(pluggable) policy.
+
+A framework running on top of Mesos consists of two components: a
+scheduler that registers with the master to be offered resources, and an
+executor process that is launched on slave nodes to run the framework’s
+tasks. Resource offers are simple and efficient to implement, allowing
+Mesos to be highly scalable and robust to failures.
+
+Docker
+------
+
 Graph Processing
 ================
-
-GPGPU
-=====
 
 Recommendation
 ==============
 
 Text Mining
 ===========
-
-Deep Learning
-=============
-
-Random Graph
-============
 
 [^1]: Interestingly, people were even against the idea of
     personalization back to 2001 @NunesKambil2001.
@@ -3612,61 +3613,61 @@ Random Graph
     even where we pause, where we hover and for how long
     @Facebook13Mouse.
 
-[^3]: Spark on YARN is available since Spark 0.6
-
-[^4]: YARN is a monolithic system and Google’s Omega is a shared state
-    scheduler @Schwarzkopf:2013:OFS.
-
-[^5]: Multiple DataNodes on the same machine is possible but rare in
+[^3]: Multiple DataNodes on the same machine is possible but rare in
     production deployments.
 
-[^6]: Archiving does not delete the input files. The user has to do it
+[^4]: Archiving does not delete the input files. The user has to do it
     manually to reduce namespace.
 
-[^7]: The Apache Thrift @Thrift is a software framework for scalable
+[^5]: The Apache Thrift @Thrift is a software framework for scalable
     cross-language services development. It combines a software stack
     with a code generation engine to build services that work
     efficiently and seamlessly between C++, Java, Python, PHP, Ruby,
     Erlang, Perl, C\#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml, and
     Delphi, etc.
 
-[^8]: MPI-I/O @Gropp:1999:UMA was added into MPI-2 but it is not easy to
+[^6]: MPI-I/O @Gropp:1999:UMA was added into MPI-2 but it is not easy to
     use and difficult to achieve good performance.
 
-[^9]: Also frequently referred as `fold`.
+[^7]: Also frequently referred as `fold`.
 
-[^10]: Tachyon is a memory-centric distributed file system enabling
+[^8]: Tachyon is a memory-centric distributed file system enabling
     reliable file sharing at memory-speed.
 
-[^11]: The exact meaning will be clear in Section \[sec:cap\].
-
-[^12]: In the asynchronous model, there is no clock, and nodes must make
+[^9]: In the asynchronous model, there is no clock, and nodes must make
     decisions based only on the messages received and local computation.
     In the asynchronous model an algorithm has no way of determining
     whether a message has been lost, or has been arbitrarily delayed in
     the transmission channel.
 
-[^13]: In a partially synchronous model, every node has a clock, and all
+[^10]: In a partially synchronous model, every node has a clock, and all
     clocks increase at the same rate. However, the clocks themselves are
     not synchronized, in that they may display different values at the
     same real time.
 
-[^14]: Once the system enters partition mode, one approach is to limit
+[^11]: Once the system enters partition mode, one approach is to limit
     some operations, thereby reducing availability. The alternative
     allows inconsistency but records extra information about the
     operations that will be helpful during partition recovery.
 
-[^15]: In contrast, the BlockCache keeps data blocks resident in memory
+[^12]: The exact meaning will be clear in Section \[sec:cap\].
+
+[^13]: In contrast, the BlockCache keeps data blocks resident in memory
     after they’re read.
 
-[^16]: Earlier versions used the MapFile format. The MapFile is actually
+[^14]: Earlier versions used the MapFile format. The MapFile is actually
     a directory that contains two SequenceFile: the data file and the
     index file.
 
-[^17]: Riak was originally created to serve as a highly scalable session
+[^15]: Riak was originally created to serve as a highly scalable session
     store.
 
-[^18]: It is not recommended to store objects over 50M for performance
+[^16]: It is not recommended to store objects over 50M for performance
     reasons.
 
-[^19]: The first reads will return the error 404 Not Found.
+[^17]: The first reads will return the error 404 Not Found.
+
+[^18]: Spark on YARN is available since Spark 0.6
+
+[^19]: YARN is a monolithic system and Google’s Omega is a shared state
+    scheduler @Schwarzkopf:2013:OFS.
