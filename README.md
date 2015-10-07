@@ -1,11 +1,3 @@
----
-author:
-- Haifeng Li
-bibliography:
-- 'bigdata.bib'
-title: Introduction to Big Data
-...
-
 Introduction
 ============
 
