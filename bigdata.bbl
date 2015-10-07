@@ -1,0 +1,451 @@
+\begin{thebibliography}{10}
+
+\bibitem{Accenture13Seattle}
+Accenture.
+\newblock Accenture analytics and smart building solutions are helping seattle
+  boost energy efficiency downtown, 2013.
+
+\bibitem{Accenture14SmartGrid}
+Accenture.
+\newblock Accenture to help thames water prove the benefits of smart monitoring
+  capabilities, 2014.
+
+\bibitem{AdpHcm}
+ADP.
+\newblock Adp hcm solutions for large business.
+\newblock \url{http://www.adp.com/solutions/large-business/products.aspx},
+  2014.
+
+\bibitem{Accumulo}
+Apache.
+\newblock Accumulo.
+\newblock \url{http://accumulo.apache.org}.
+
+\bibitem{Cassandra}
+Apache.
+\newblock Cassandra.
+\newblock \url{http://cassandra.apache.org}.
+
+\bibitem{Chukwa}
+Apache.
+\newblock Chukwa.
+\newblock \url{http://chukwa.apache.org}.
+
+\bibitem{HdfsShell}
+Apache.
+\newblock File system shell guide.
+\newblock
+  \url{http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html}.
+
+\bibitem{Flume}
+Apache.
+\newblock Flume.
+\newblock \url{http://flume.apache.org}.
+
+\bibitem{Hadoop}
+Apache.
+\newblock Hadoop.
+\newblock \url{http://hadoop.apache.org}.
+
+\bibitem{HBase}
+Apache.
+\newblock Hbase.
+\newblock \url{http://hbase.apache.org}.
+
+\bibitem{HdfsThrift}
+Apache.
+\newblock {HDFS} {API}s in perl, python, ruby and php.
+\newblock \url{http://wiki.apache.org/hadoop/HDFS-APIs}.
+
+\bibitem{Kafka}
+Apache.
+\newblock Kafka.
+\newblock \url{http://kafka.apache.org}.
+
+\bibitem{MapReduceTutorial}
+Apache.
+\newblock Mapreduce tutorial.
+\newblock
+  \url{http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html}.
+
+\bibitem{Maven}
+Apache.
+\newblock Maven.
+\newblock \url{http://maven.apache.org}.
+
+\bibitem{Spark}
+Apache.
+\newblock Spark.
+\newblock \url{http://spark.apache.org}.
+
+\bibitem{Sqoop}
+Apache.
+\newblock Sqoop.
+\newblock \url{http://sqoop.apache.org}.
+
+\bibitem{Storm}
+Apache.
+\newblock Storm.
+\newblock \url{http://storm.apache.org}.
+
+\bibitem{Tez}
+Apache.
+\newblock Tez.
+\newblock \url{http://tez.apache.org}.
+
+\bibitem{Thrift}
+Apache.
+\newblock Thrift.
+\newblock \url{http://thrift.apache.org}.
+
+\bibitem{ZooKeeper}
+Apache.
+\newblock Zookeeper.
+\newblock \url{http://zookeeper.apache.org}.
+
+\bibitem{Riak}
+Basho.
+\newblock Riak.
+\newblock \url{http://basho.com/riak/}.
+
+\bibitem{opac:2009}
+Philip~A. Bernstein and Eric Newcomer.
+\newblock {\em Principles of transaction processing}.
+\newblock The Morgan Kaufmann series in data management systems. Morgan
+  Kaufmann Publishers, Burlington, MA, second edition, 2009.
+
+\bibitem{Bloom:1970:STH}
+Burton~H. Bloom.
+\newblock Space/time trade-offs in hash coding with allowable errors.
+\newblock {\em Commun. ACM}, 13(7):422--426, July 1970.
+
+\bibitem{Brewer:2000:TRD}
+Eric~A. Brewer.
+\newblock Towards robust distributed systems (abstract).
+\newblock In {\em Proceedings of the Nineteenth Annual ACM Symposium on
+  Principles of Distributed Computing}, PODC '00, 2000.
+
+\bibitem{Brewer:2012}
+Eric~A. Brewer.
+\newblock Cap twelve years later: How the ``rules'' have changed.
+\newblock {\em Computer}, 45(2):23--29, February 2012.
+
+\bibitem{Chang:2006:BDS}
+Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson~C. Hsieh, Deborah~A. Wallach,
+  Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert~E. Gruber.
+\newblock Bigtable: A distributed storage system for structured data.
+\newblock In {\em Proceedings of the 7th USENIX Symposium on Operating Systems
+  Design and Implementation - Volume 7}, OSDI '06, 2006.
+
+\bibitem{LevelDB}
+Jeffrey Dean and Sanjay Ghemawat.
+\newblock Leveldb.
+\newblock \url{http://leveldb.org}.
+
+\bibitem{Dean:2008:MSD}
+Jeffrey Dean and Sanjay Ghemawat.
+\newblock Mapreduce: Simplified data processing on large clusters.
+\newblock {\em Commun. ACM}, 51(1):107--113, January 2008.
+
+\bibitem{DeCandia:2007:DAH}
+Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati,
+  Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall,
+  and Werner Vogels.
+\newblock Dynamo: {Amazon's} highly available key-value store.
+\newblock In {\em Proceedings of Twenty-first ACM SIGOPS Symposium on Operating
+  Systems Principles}, SOSP '07, pages 205--220, 2007.
+
+\bibitem{DeWitt:1992:PDS}
+David DeWitt and Jim Gray.
+\newblock Parallel database systems: The future of high performance database
+  systems.
+\newblock {\em Commun. ACM}, 35(6):85--98, June 1992.
+
+\bibitem{fidge1988timestamps}
+C.~J. Fidge.
+\newblock Timestamps in message-passing systems that preserve the partial
+  ordering.
+\newblock {\em Proceedings of the 11th Australian Computer Science Conference},
+  10(1):56–66, 1988.
+
+\bibitem{Forum:1994:MMI}
+Message~P Forum.
+\newblock Mpi: A message-passing interface standard.
+\newblock Technical report, University of Tennessee, Knoxville, TN, USA, 1994.
+
+\bibitem{Gartner2014}
+Gartner.
+\newblock Gartner's 2014 hype cycle for emerging technologies maps the journey
+  to digital business.
+\newblock \url{http://www.gartner.com/newsroom/id/2819918}, 2014.
+
+\bibitem{Stinger}
+Alan Gates.
+\newblock The stinger initiative: Making apache hive 100 times faster.
+\newblock \url{http://hortonworks.com/blog/100x-faster-hive/}.
+
+\bibitem{IndustrialInternetReport2014}
+GE and Accenture.
+\newblock Industrial internet insights report, 2014.
+
+\bibitem{Ghemawat:2003:GFS}
+Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung.
+\newblock The google file system.
+\newblock In {\em Proceedings of the Nineteenth ACM Symposium on Operating
+  Systems Principles}, SOSP '03, pages 29--43, 2003.
+
+\bibitem{Ghodsi:2011:DRF}
+Ali Ghodsi, Matei Zaharia, Benjamin Hindman, Andy Konwinski, Scott Shenker, and
+  Ion Stoica.
+\newblock Dominant resource fairness: Fair allocation of multiple resource
+  types.
+\newblock In {\em Proceedings of the 8th USENIX Conference on Networked Systems
+  Design and Implementation}, NSDI'11, pages 323--336, 2011.
+
+\bibitem{Gilbert:2002:BCF}
+Seth Gilbert and Nancy Lynch.
+\newblock Brewer's conjecture and the feasibility of consistent, available,
+  partition-tolerant web services.
+\newblock {\em SIGACT News}, 33(2):51--59, June 2002.
+
+\bibitem{Gropp:1999:UMA}
+William Gropp, Ewing Lusk, and Rajeev Thakur.
+\newblock {\em Using MPI-2: Advanced Features of the Message-Passing
+  Interface}.
+\newblock MIT Press, Cambridge, MA, USA, 1999.
+
+\bibitem{HDFS2010:265}
+Apache Hadoop.
+\newblock Asf jira hdfs-265, 2010.
+
+\bibitem{YARN2011:279}
+Apache Hadoop.
+\newblock Asf jira mapreduce-279, 2011.
+
+\bibitem{HDFS}
+Apache Hadoop.
+\newblock Hdfs architecture.
+\newblock
+  \url{http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html},
+  2014.
+
+\bibitem{Hindman:2011:MPF}
+Benjamin Hindman, Andy Konwinski, Matei Zaharia, Ali Ghodsi, Anthony~D. Joseph,
+  Randy Katz, Scott Shenker, and Ion Stoica.
+\newblock Mesos: A platform for fine-grained resource sharing in the data
+  center.
+\newblock In {\em Proceedings of the 8th USENIX Conference on Networked Systems
+  Design and Implementation}, NSDI'11, pages 295--308, 2011.
+
+\bibitem{Watson2013Cancer}
+IBM.
+\newblock Ibm watson helps fight cancer with evidence-based diagnosis and
+  treatment suggestions, 2013.
+
+\bibitem{Watson2013Healthcare}
+IBM.
+\newblock Putting watson to work: Watson in healthcare, 2013.
+
+\bibitem{IBM2013}
+IBM.
+\newblock What is big data?
+\newblock
+  \url{http://www-01.ibm.com/software/data/bigdata/what-is-big-data.html},
+  2013.
+
+\bibitem{Watson2014}
+IBM.
+\newblock Watson.
+\newblock \url{http://www.ibm.com/smarterplanet/us/en/ibmwatson/}, 2014.
+
+\bibitem{Isard:2007:DDD}
+Michael Isard, Mihai Budiu, Yuan Yu, Andrew Birrell, and Dennis Fetterly.
+\newblock Dryad: Distributed data-parallel programs from sequential building
+  blocks.
+\newblock In {\em Proceedings of the 2Nd ACM SIGOPS/EuroSys European Conference
+  on Computer Systems 2007}, EuroSys '07, pages 59--72, 2007.
+
+\bibitem{Jain:1988:ACD}
+Anil~K. Jain and Richard~C. Dubes.
+\newblock {\em Algorithms for Clustering Data}.
+\newblock Prentice-Hall, Inc., 1988.
+
+\bibitem{HBaseCoprocessor}
+Mingjie Lai, Eugene Koontz, and Andrew Purtell.
+\newblock Coprocessor introduction.
+\newblock \url{http://blogs.apache.org/hbase/entry/coprocessor_introduction}.
+
+\bibitem{Lakshman:2010:CDS}
+Avinash Lakshman and Prashant Malik.
+\newblock Cassandra: A decentralized structured storage system.
+\newblock {\em SIGOPS Oper. Syst. Rev.}, 44(2):35--40, April 2010.
+
+\bibitem{Lamport:1998:PP}
+Leslie Lamport.
+\newblock The part-time parliament.
+\newblock {\em ACM Trans. Comput. Syst.}, 16(2):133--169, May 1998.
+
+\bibitem{Laney2012}
+Douglas Laney.
+\newblock The importance of `big data': A definition.
+\newblock {\em Gartner}, June 2012.
+
+\bibitem{HBaseMTTR}
+Nicolas Liochon.
+\newblock Introduction to hbase mean time to recovery ({MTTR}).
+\newblock
+  \url{http://hortonworks.com/blog/introduction-to-hbase-mean-time-to-recover-mttr/}.
+
+\bibitem{MacLeodClarke2012}
+David MacLeod and Nita Clarke.
+\newblock Engaging for success: enhancing performance through employee
+  engagement, 2012.
+
+\bibitem{Mattern89virtualtime}
+Friedemann Mattern.
+\newblock Virtual time and global states of distributed systems.
+\newblock In {\em Parallel and Distributed Algorithms}, pages 215--226, 1989.
+
+\bibitem{McKusick:2009:GEF}
+Marshall~Kirk McKusick and Sean Quinlan.
+\newblock Gfs: Evolution on fast-forward.
+\newblock {\em Queue}, 7(7):10--20, August 2009.
+
+\bibitem{BSON}
+MongoDB.
+\newblock Bson.
+\newblock \url{http://bsonspec.org}.
+
+\bibitem{MongoDB}
+MongoDB.
+\newblock Mongodb.
+\newblock \url{https://www.mongodb.com}.
+
+\bibitem{WiredTiger}
+MongoDB.
+\newblock Wiredtiger.
+\newblock \url{http://www.wiredtiger.com}.
+
+\bibitem{NunesKambil2001}
+Paul~F. Nunes and Ajit Kambil.
+\newblock Personalization? {No} thanks.
+\newblock {\em Harvard Business Review}, April 2001.
+
+\bibitem{O'Neil96thelog-structured}
+Patrick O'Neil, Edward Cheng, Dieter Gawlick, and Elizabeth O'Neil.
+\newblock The log-structured merge-tree (lsm-tree), 1996.
+
+\bibitem{Pavlo:2009:CAL}
+Andrew Pavlo, Erik Paulson, Alexander Rasin, Daniel~J. Abadi, David~J. DeWitt,
+  Samuel Madden, and Michael Stonebraker.
+\newblock A comparison of approaches to large-scale data analysis.
+\newblock In {\em Proceedings of the 2009 ACM SIGMOD International Conference
+  on Management of Data}, SIGMOD '09, pages 165--178, 2009.
+
+\bibitem{Preguica:2012:BAE}
+Nuno Pregui\c{c}a, Carlos Bauqero, Paulo~S{\'e}rgio Almeida, Victor Fonte, and
+  Ricardo Gon\c{c}alves.
+\newblock Brief announcement: Efficient causality tracking in distributed
+  storage systems with dotted version vectors.
+\newblock In {\em Proceedings of the 2012 ACM Symposium on Principles of
+  Distributed Computing}, PODC '12, pages 335--336, 2012.
+
+\bibitem{Reed:2008:STO}
+Benjamin Reed and Flavio~P. Junqueira.
+\newblock A simple totally ordered broadcast protocol.
+\newblock In {\em Proceedings of the 2Nd Workshop on Large-Scale Distributed
+  Systems and Middleware}, LADIS '08, 2008.
+
+\bibitem{ReichheldSasser1990}
+Frederick~F. Reichheld and Jr. W.~Earl~Sasser.
+\newblock Zero defections: Quality comes to services.
+\newblock {\em Harvard Business}, September 1990.
+
+\bibitem{Rowstron:2012:NEG}
+Antony Rowstron, Dushyanth Narayanan, Austin Donnelly, Greg O'Shea, and Andrew
+  Douglas.
+\newblock Nobody ever got fired for using hadoop on a cluster.
+\newblock In {\em Proceedings of the 1st International Workshop on Hot Topics
+  in Cloud Data Processing}, HotCDP '12, pages 1--5, 2012.
+
+\bibitem{TezTutorial}
+Bikas Saha.
+\newblock Apache tez: A new chapter in hadoop data processing.
+\newblock
+  \url{http://hortonworks.com/blog/apache-tez-a-new-chapter-in-hadoop-data-processing/}.
+
+\bibitem{Schwarzkopf:2013:OFS}
+Malte Schwarzkopf, Andy Konwinski, Michael Abd-El-Malek, and John Wilkes.
+\newblock Omega: Flexible, scalable schedulers for large compute clusters.
+\newblock In {\em Proceedings of the 8th ACM European Conference on Computer
+  Systems}, EuroSys '13, pages 351--364, 2013.
+
+\bibitem{CRDT2011}
+Marc Shapiro, Nuno Preguiça, Carlos Baquero, and Marek Zawirski.
+\newblock A comprehensive study of convergent and commutative replicated data
+  types.
+\newblock Technical Report RR-7506, INRIA, 2011.
+
+\bibitem{Bitcask}
+Justin Sheehy and David Smith.
+\newblock Bitcask: A log-structured hash table for fast key/value data.
+\newblock
+  \url{http://github.com/basho/basho_docs/raw/master/source/data/bitcask-intro.pdf}.
+
+\bibitem{Tar2Seq}
+Stuart Sierra.
+\newblock A million little files.
+\newblock \url{http://stuartsierra.com/2008/04/24/a-million-little-files},
+  2008.
+
+\bibitem{Tachyon}
+Tachyon Team.
+\newblock Tachyon project.
+\newblock \url{http://tachyon-project.org}.
+
+\bibitem{top500}
+Top500.org.
+\newblock Numerical wind tunnel: National aerospace laboratory of japan.
+\newblock
+  \url{http://www.top500.org/featured/systems/numerical-wind-tunnel-national-aerospace-laboratory-of-japan/},
+  2014.
+
+\bibitem{Facebook13Mouse}
+Lisa Vaas.
+\newblock Facebook mulls silently tracking users' cursor movements to see which
+  ads we like best, 2013.
+
+\bibitem{VagateWilfong2014}
+Pamela Vagata and Kevin Wilfong.
+\newblock Scaling the facebook data warehouse to 300 {PB}.
+\newblock
+  \url{https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/},
+  April 2014.
+
+\bibitem{SmallFiles}
+Tom White.
+\newblock The small files problem.
+\newblock \url{http://blog.cloudera.com/blog/2009/02/the-small-files-problem/},
+  2009.
+
+\bibitem{Nvidia2014}
+Wikipedia.
+\newblock Nvidia tesla.
+\newblock \url{http://en.wikipedia.org/wiki/Nvidia_Tesla}, 2014.
+
+\bibitem{Zaharia:2012:RDD}
+Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy
+  McCauley, Michael~J. Franklin, Scott Shenker, and Ion Stoica.
+\newblock Resilient distributed datasets: A fault-tolerant abstraction for
+  in-memory cluster computing.
+\newblock In {\em Proceedings of the 9th USENIX Conference on Networked Systems
+  Design and Implementation}, NSDI'12, 2012.
+
+\bibitem{Zaharia:2010:SCC}
+Matei Zaharia, Mosharaf Chowdhury, Michael~J. Franklin, Scott Shenker, and Ion
+  Stoica.
+\newblock Spark: Cluster computing with working sets.
+\newblock In {\em Proceedings of the 2Nd USENIX Conference on Hot Topics in
+  Cloud Computing}, HotCloud'10, 2010.
+
+\end{thebibliography}
