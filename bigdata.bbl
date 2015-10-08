@@ -16,6 +16,11 @@ ADP.
 \newblock \url{http://www.adp.com/solutions/large-business/products.aspx},
   2014.
 
+\bibitem{AMPLabBenchmark2014}
+AMPLab.
+\newblock Big data benchmark.
+\newblock \url{http://amplab.cs.berkeley.edu/benchmark/}.
+
 \bibitem{Accumulo}
 Apache.
 \newblock Accumulo.
@@ -136,6 +141,13 @@ Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson~C. Hsieh, Deborah~A. Wallach,
 \newblock Bigtable: A distributed storage system for structured data.
 \newblock In {\em Proceedings of the 7th USENIX Symposium on Operating Systems
   Design and Implementation - Volume 7}, OSDI '06, 2006.
+
+\bibitem{ClouderaImpala2014}
+Cloudera.
+\newblock New sql choices in the apache hadoop ecosystem: Why impala continues
+  to lead.
+\newblock
+  \url{http://blog.cloudera.com/blog/2014/05/new-sql-choices-in-the-apache-hadoop-ecosystem-why-impala-continues-to-lead/}.
 
 \bibitem{LevelDB}
 Jeffrey Dean and Sanjay Ghemawat.
