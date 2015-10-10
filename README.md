@@ -1,3 +1,81 @@
+-   Introduction
+    -   What’s Big Data?
+    -   Business Use Cases
+        -   CRM
+        -   HCM
+        -   IoT
+        -   Healthcare
+    -   Audience
+    -   Roadmap
+-   Data Management
+-   Hadoop
+    -   HDFS
+        -   Assumptions
+        -   Architecture
+        -   Control and Data Flow
+        -   The Small Files Problem
+        -   HDFS Federation
+        -   Java API
+        -   Data Ingestion
+    -   MapReduce
+        -   Overview
+        -   Data Flow
+        -   Secondary Sorting
+        -   Examples
+        -   Shortcomings
+    -   Tez
+    -   YARN
+-   Spark
+    -   RDD
+    -   Implementation
+    -   API
+-   Analytics and Data Warehouse
+    -   Pig
+    -   Hive
+    -   Impala
+    -   Shark and Spark SQL
+-   NoSQL
+    -   The CAP Theorem
+    -   ZooKeeper
+        -   Data Model
+        -   Atomic Broadcast
+    -   HBase
+        -   Data Model
+        -   Storage
+        -   Architecture
+        -   Security
+        -   Coprocessor
+        -   Summary
+    -   Riak
+        -   Data Model
+        -   Storage
+        -   Architecture
+        -   Consistency
+        -   Summary
+    -   Cassandra
+        -   Data Model
+        -   Storage
+        -   Architecture
+        -   CQL
+        -   Consistency
+        -   Summary
+    -   MongoDB
+        -   Data Model
+        -   Storage
+        -   Cluster Architecture
+        -   Replic Set
+        -   Sharding
+        -   Summary
+-   Stream Processing
+    -   Storm
+    -   Spark Streaming
+-   Cluster Management
+    -   Mesos
+    -   Docker
+-   Graph Processing
+-   Recommendation
+-   Text Mining
+
 Introduction
 ============
 
@@ -3605,8 +3683,8 @@ Storm
 Spark Streaming
 ---------------
 
-Cluster Management and DevOp
-============================
+Cluster Management
+==================
 
 Large-scale computer clusters are challenging to utilize efficiently.
 One of the critical tasks of cluster management is to dispatch work for

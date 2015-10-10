@@ -1,3 +1,3 @@
 #!/bin/sh
-pandoc --webtex --filter pandoc-citeproc --bibliography=bigdata.bib bigdata.tex -o README.md
+pandoc -s -S --toc --webtex --filter pandoc-citeproc --metadata bibliography=bigdata.bib bigdata.tex -o README.md
 pandoc -S --toc bigdata.tex -o bigdata.epub
