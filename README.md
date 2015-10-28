@@ -539,14 +539,13 @@ rather than low latency.
 
 ![HDFS Architecture](images/hdfs-architecture.png)
 
-HDFS is built using the Java language and has a master/slave
-architecture. An HDFS cluster consists of a single NameNode, a master
-server that manages the file system namespace and regulates access to
-files by clients. In addition, there are a number of DataNodes\
-index<span>HDFS!NameNode</span> that manage storage attached to the
-nodes that they run on. A typical deployment has a dedicated machine
-that runs only the NameNode. Each of the other machines in the cluster
-runs one instance of the DataNode.[^3]
+HDFS has a master/slave architecture. An HDFS cluster consists of a
+single NameNode, a master server that manages the file system namespace
+and regulates access to files by clients. In addition, there are a
+number of DataNodes that manage storage attached to the nodes that they
+run on. A typical deployment has a dedicated machine that runs only the
+NameNode. Each of the other machines in the cluster runs one instance of
+the DataNode.[^3]
 
 HDFS supports a traditional hierarchical file organization that consists
 of directories and files. In HDFS, each file is stored as a sequence of
@@ -759,7 +758,7 @@ implementations:
     FileSystem fs = FileSystem.get (conf);
 
 where the `Configuration` class passes the Hadoop configuration
-information such as scheme, authority, NameNode host and port, etc..
+information such as scheme, authority, NameNode host and port, etc.
 Unless explicitly turned off, Hadoop by default specifies two resources,
 loaded in-order from the classpath:
 
@@ -1309,7 +1308,7 @@ Map
 Combine
 
 :   In order to reduce the data passed to the reducer, we may have a
-    combiner that aggregates samples belonging to the same cluster .
+    combiner that aggregates samples belonging to the same cluster.
 
 Reduce
 

@@ -220,7 +220,7 @@ HDFS applications typically have large streaming access to their datasets. HDFS 
 %http://hadoop.apache.org/docs/r1.2.1/images/hdfsarchitecture.gif
 \end{figure}
 
-HDFS is built using the Java language and has a master/slave architecture. An HDFS cluster consists of a single NameNode\index{HDFS!NameNode}, a master server that manages the file system namespace and regulates access to files by clients. In addition, there are a number of DataNodes\\index{HDFS!NameNode} that manage storage attached to the nodes that they run on. A typical deployment has a dedicated machine that runs only the NameNode. Each of the other machines in the cluster runs one instance of the DataNode \footnote{Multiple DataNodes on the same machine is possible but rare in production deployments.}.
+HDFS has a master/slave architecture. An HDFS cluster consists of a single NameNode\index{HDFS!NameNode}, a master server that manages the file system namespace and regulates access to files by clients. In addition, there are a number of DataNodes\index{HDFS!DataNode} that manage storage attached to the nodes that they run on. A typical deployment has a dedicated machine that runs only the NameNode. Each of the other machines in the cluster runs one instance of the DataNode \footnote{Multiple DataNodes on the same machine is possible but rare in production deployments.}.
 
 HDFS supports a traditional hierarchical file organization that consists of directories and files. In HDFS, each file is stored as a sequence of blocks (identified by 64 bit unique id); all blocks in a file except the last one are the same size (typically 64 MB). DataNodes store each block in a separate file  on local file system and provide read/write access. When a DataNode starts up, it scans through its local file system and sends the list of hosted data blocks (called Blockreport) to the NameNode.
 
@@ -292,7 +292,7 @@ The \texttt{FileSystem} class also serves as a factory for concrete implementati
 Configuration conf = new Configuration();
 FileSystem fs = FileSystem.get (conf);
 \end{lstlisting}
-where the \texttt{Configuration} class passes the Hadoop configuration information such as scheme, authority, NameNode host and port, etc.. Unless explicitly turned off, Hadoop by default specifies two resources, loaded in-order from the classpath:
+where the \texttt{Configuration} class passes the Hadoop configuration information such as scheme, authority, NameNode host and port, etc. Unless explicitly turned off, Hadoop by default specifies two resources, loaded in-order from the classpath:
 \begin{description}
 \item[core-default.xml] Read-only defaults for Hadoop.
 \item[core-site.xml] Site-specific configuration for a given Hadoop installation.
@@ -555,7 +555,7 @@ The k-means clustering is a simple and widely used method that partitions data i
 \begin{description}
 \item[Input] The data files as regular MapReduce input and cluster center files side-loaded by DistributedCache. Initially, the cluster centers may be random selected.
 \item[Map] With side-loaded cluster centers, each sample input is mapped to a cluster of nearest mean. The emitted key-value pair is \textless cluster id, sample vector\textgreater.
-\item[Combine] In order to reduce the data passed to the reducer, we may have a combiner that aggregates samples belonging to the same cluster .
+\item[Combine] In order to reduce the data passed to the reducer, we may have a combiner that aggregates samples belonging to the same cluster.
 \item[Reduce] The reduce tasks recalculate the new means of clusters as the centroids of samples in the new clusters. The output of new cluster means will be used as the input to next iteration.
 \item[Iterate] This process is repeated until the algorithm converges or reaches the maximum number of iterations.
 \item[Output] Runs a map only job to output the cluster assignment.
