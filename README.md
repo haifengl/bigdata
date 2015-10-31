@@ -70,6 +70,7 @@ Download the book in <a href="https://github.com/haifengl/bigdata/releases/downl
         -   Replic Set
         -   Sharding
         -   Summary
+-   NewSQL
 -   Stream Processing
     -   Storm
     -   Spark Streaming
@@ -1759,7 +1760,7 @@ Analytics and Data Warehouse
 
 With big data at hand, we want to crunch numbers from them. MapReduce
 and TeZ are good tools for ad-hoc analytics. However, their programming
-model are very low level. Custom code has to be written for even simple
+models are very low level. Custom code has to be written for even simple
 operations like projection and filtering. It is even more tedious and
 verbose to implement common relational operators such as join. Several
 efforts, including Pig and Hive, have been devoted to simplify the
@@ -1885,17 +1886,15 @@ great tool for quick ad-hoc analytics such as web log analysis.
 Hive
 ----
 
-We have discussed Apache Pig that provides a data flow DSL Pig Latin to
-ease the MapReduce programming. Although many statements in Pig Latin
-look just like SQL clauses, it is a procedural programming language. In
-this section we will discuss Apache Hive that first brought SQL to
-Hadoop. Similar to Pig, Hive translates its own dialect of SQL (HiveQL)
-queries to a directed acyclic graph of MapReduce (or Tez since 0.13)
-jobs. However, the difference between Pig and Hive is not only
-procedural vs declarative. Pig is a relatively thin layer on top of
-MapReduce for offline analytics. But Hive is towards a data warehouse.
-With the recent stinger initiative, Hive is closer to interactive
-analytics by 100x performance improvement.
+Although many statements in Pig Latin look just like SQL clauses, it is
+a procedural programming language. In this section we will discuss
+Apache Hive that first brought SQL to Hadoop. Similar to Pig, Hive
+translates its own dialect of SQL (HiveQL) queries to a directed acyclic
+graph of MapReduce (or Tez since 0.13) jobs. However, the difference
+between Pig and Hive is not only procedural vs declarative. Pig is a
+relatively thin layer on top of MapReduce for offline analytics. But
+Hive is towards a data warehouse. With the recent stinger initiative,
+Hive is closer to interactive analytics by 100x performance improvement.
 
 Pig uses a “schema on read” approach that users define the (optional)
 schema on loading data. In contrast, Hive requires users to provides
@@ -2180,7 +2179,7 @@ is a list of possible reasons:
     to read from the same map node at the same time, inducing a large
     number of disk seeks and slowing the effective disk transfer rate.
     Hive’s query expressions are generated at compile time while Impala
-    does runtime code generation for “big loops” using llvm that can
+    does runtime code generation for “big loops” using LLVM that can
     achieve more optimized code.
 
 -   Tez allows complete control over the processing, e.g. stopping
@@ -2271,9 +2270,9 @@ schema. Similar to a table in a traditional relational database,
 SchemaRDDs can be used in relational queries in addition to standard RDD
 functions. A SchemaRDD can be created from an existing RDD using the
 SQLContext.createSchemaRDD() function (or implicitly converting an RDD
-of of Scala case classes by importing a SQLContext). A SchemaRDD can
-also be created by loading data in from external sources, e.g. Parquet
-file, a JSON dataset, or Hive queries through HiveContext.
+of Scala case classes by importing a SQLContext). A SchemaRDD can also
+be created by loading data in from external sources, e.g. Parquet file,
+a JSON dataset, or Hive queries through HiveContext.
 
 Similar to Shark, Spark SQL employs an in-memory columnar store.
 Different form Shark, Spark SQL does not use any query optimizations of
@@ -2285,22 +2284,52 @@ NoSQL
 =====
 
 So far, we have been focusing on read only data stores and analytics.
-From this chapter, we switch to operational data stores. In particular,
-this chapter is about NoSQL (Not Only SQL) database. Departing from
-relational model, NoSQL is a hot term nowadays although the name is kind
-of misleading. The data model (e.g., key-value pair, document, or graph)
-is surely very different from the tabular relations in the RDBMS.
-However, these non-relational data models are actually not new. For
-example, BerkeleyDB, a key-value store, was initially released in 1994
-(20 years ago as of writing this book). In the web and social network
-era, the motivations of (distributed) NoSQL movement are mainly towards
-to horizontal scaling and high availability. By playing with the CAP
-theorem, many NoSQL stores compromise consistency in favor of
+Business intelligence and analytics are extremely important for us to
+understand users and thus improve the business and operational
+efficiency. Without transaction-oriented applications that provide users
+the services, however, what data can we analyze? From this chapter, we
+switch to online transaction processing (OLTP) data stores. OLTP systems
+facilitate and manage transaction-oriented applications, typically for
+data entry and retrieval transaction processing. OLTP applications are
+high throughput and insert or update-intensive in database management.
+These applications are used concurrently by a huge number of users. For
+example, social networking are serving hundred millions users at the
+same time. The key goals of OLTP applications are availability, speed,
+concurrency and recoverability.
+
+In particular, this chapter is about NoSQL (Not Only SQL) database.
+Departing from relational model, NoSQL is a hot term nowadays although
+the name is kind of misleading. The data model (e.g., key-value pair,
+document, or graph) is surely very different from the tabular relations
+in the RDBMS. However, these non-relational data models are actually not
+new. For example, BerkeleyDB, a key-value store, was initially released
+in 1994 (20 years ago as of writing this book). In the web and social
+network era, the motivations of (distributed) NoSQL movement are mainly
+towards to horizontal scaling and high availability. By playing with the
+CAP theorem, many NoSQL stores compromise consistency in favor of
 availability and partition tolerance, which also brings the simplicity
 of design. Note that a distributed database system does not have to drop
 consistency. For instance, TeraData, Google’s F1, and Apache Trafodion
 are ACID-compliant. Correspondingly, these systems are much more
 complicated.
+
+This chapter starts with the CAP theorem, which plays a central role in
+many distribution systems’ design. Based on the CAP theorem, distributed
+database can be classified into CP or AP schools. Unfortunately, there
+are a lot of misunderstandings of the theorem. We will dive into what
+exactly the theorem means. Then we will look into Zookeeper that
+essentially an in-memory database. In practice, it is mostly used as a
+coordination service shared by many distributed applications. The
+following section studies Apache HBase, a popular NoSQL database on
+Hadoop. Modeled after Google’s BigTable, HBase brings real-time random
+access to Hadoop. While HBase provides row-rise strong consistency,
+Riak, an open source implementation of Amazon’s Dynamo, is an example of
+high available NoSQL database that compromises the consistency. With the
+knowledge of HBase/BigTable and Riak/Dynamo, it is easy for us to
+understand the design of Apache Cassandra that is a hybrid of BigTable?s
+data model and Dynamo?s system design. Finally, we discuss MongoDB. As
+the most popular NoSQL database, MongoDB employs a document data model
+and provides friendly data-centric API.
 
 The CAP Theorem {#sec:cap}
 ---------------
@@ -2348,8 +2377,8 @@ requirements. In practice, it is common assuming that a single
 datacenter has no partitions within, and thus allows the designs for CA
 within a single site.
 
-Furthermore, a distributed system may not be simplify classified as CP
-or AP because the choice between C and A can occur many times within the
+Furthermore, a distributed system may not be simply classified as CP or
+AP because the choice between C and A can occur many times within the
 same system at very fine granularity @Brewer:2012. Not only can
 subsystems make different choices, but the choice can change according
 to the operation or even the specific data or user involved.
@@ -2597,18 +2626,17 @@ The four primary data model operations are Scan, Get, Put, and Delete.
 Scan allows iteration over multiple rows while Get returns columns for a
 specified row. It can be specified to retrieve everything, or all
 columns from specific families, or specific columns. By default, when
-doing a Get, the latest version (largest value) of the cell is returned.
-It is possible to return more than one version with Get.setMaxVersions()
-or to return versions other than the latest by Get.setTimeRange().
-Without specifying the version, Put always creates a new version of a
-cell with the server’s currentTimeMillis. But the user may specify the
-version on a per-column level. The user-provided version may be a time
-in the past or the future, or a non-time purpose long value. To
-overwrite an existing value, an exact version should be provided. Delete
-can happen on a specific version of a cell or all versions. To save
-space, HBase also cleans up old or expired versions. To declare how much
-data to retain, one may define the number of versions or the time to
-live (TTL).
+doing a Get, the latest/highest version of the cell is returned. It is
+possible to return more than one version with Get.setMaxVersions() or to
+return versions other than the latest by Get.setTimeRange(). Without
+specifying the version, Put always creates a new version of a cell with
+the server’s currentTimeMillis. But the user may specify the version on
+a per-column level. The user-provided version may be a time in the past
+or the future, or a non-time purpose long value. To overwrite an
+existing value, an exact version should be provided. Delete can happen
+on a specific version of a cell or all versions. To save space, HBase
+also cleans up old or expired versions. To declare how much data to
+retain, one may define the number of versions or the time to live (TTL).
 
 Deletes work by creating tombstone markers. Once a tombstone marker is
 set, the “deleted” cells become effectively invisible for Get and Scan
@@ -2617,8 +2645,7 @@ snag with the tombstone approach, namely “Deletes mask Puts”. Once a
 tombstone marker is set, even Puts after the Delete will be masked by
 the delete tombstone. Performing the Put will not fail. However when you
 do a Get, the Put has no effect but will start working after the major
-compaction, which will really remove deletes and tombstone markers (see
-below for details).
+compaction, which will really remove deletes and tombstone markers.
 
 ### Storage
 
@@ -2636,8 +2663,8 @@ set of zero or more StoreFiles. The MemStore holds in-memory
 modifications to the Store.[^13] When the MemStore reaches a certain
 size or the total size of all MemStores reaches the upper limit (both
 are configureable), the sorted key-value pairs (the key is a (row,
-column, version) tuple) in MemStore will flushed into a HDFS file called
-StoreFile in HFile format.[^14]
+column, version) tuple) in MemStore will be flushed into a HDFS file
+called StoreFile in HFile format.[^14]
 
 HFile is based on SSTable file in the BigTable. An SSTable provides a
 persistent, ordered immutable map from keys to values, where both keys
@@ -2709,7 +2736,7 @@ the system.
 The basic unit of sharding is called a Region in HBase. A region is a
 contiguous and sorted range of rows of a table stored together on disk.
 Initially, there is only one region for a table. However, when regions
-become two large, a region is split into two at the middle key (recall
+become too large, a region is split into two at the middle key (recall
 that rows are lexicographically sorted by row keys). Regions are served
 by RegionServer. Each RegionServer is responsible a set of regions but
 one region can be served only by one RegionServer.
@@ -2851,7 +2878,7 @@ replica having replica\_id 0 is called the primary region, and the
 others secondary regions. Only the primary can accept writes from the
 client and thus the writes are not highly-available. The writes are
 asynchronously sent to the secondary region replicas using Async WAL
-replication’, which works similarly to cluster replication but instead
+replication, which works similarly to cluster replication but instead
 happens inside the cluster.
 
 For reads, one may provide an additional consistency parameter (STRONG
@@ -2938,7 +2965,7 @@ Master process. Coprocessors that can be loaded globally on all tables
 and regions hosted by a region server are called system coprocessors. In
 contrast, coprocessors that are loaded on all regions for a table on a
 per-table basis are known as table coprocessors. Moreover, the framework
-supports two different types of coprocessors, the observer and the
+supports two different types of coprocessors, the observers and the
 endpoints.
 
 The observers, like triggers in RDBMS, are executed from core HBase code
@@ -3044,8 +3071,8 @@ Maps
     multiple Data Types, including maps themselves. One can add or
     remove fields to/from the map.
 
-In the section Consistency, we will discuss the details how Data Types
-resolve conflicts.
+In the section of Consistency, we will discuss the details how Data
+Types resolve conflicts.
 
 ### Storage
 
@@ -3094,11 +3121,10 @@ instead for a much quicker startup time.
 
 To store a large number of keys, LevelDB is preferred. LevelDB is an
 open source on-disk key-value store @LevelDB. It shares the same general
-design as the BigTable tablet stack and is written by Google fellows by
+design as the BigTable tablet stack and is written by Google fellows
 Jeffrey Dean and Sanjay Ghemawat. LevelDB supports batching writes,
 forward and backward iteration, and compression of the data via Google’s
-Snappy compression library. We will discuss LevelDB in details later in
-its own section.
+Snappy compression library.
 
 Although LevelDB uses a similar MemTable/SSTable design as BigTable, the
 organization of the database files is different. Each database is
@@ -3163,7 +3189,7 @@ provides the basis for Riak’s fault-tolerance and scalability. The
 symmetric architecture is based on consistent hashing to distribute data
 around the cluster. In consistent hashing, the output range of a hash
 function is treated as a ring. Riak uses the SHA1 hash function to map
-the keys of data items to a 160-bit integer space which is divided into
+the keys of data items to an 160-bit integer space which is divided into
 equally-sized partitions. Each virtual node (vnode) will claim a
 partition on the ring. The physical nodes each attempt to run roughly an
 equal number of vnodes. Consistent hashing ensures data is evenly
@@ -3288,19 +3314,19 @@ With causal context, each node of replicas can auto-repair out-of-sync
 data when feasible. For siblings that are created by multiple clients
 that concurrently reads a key-value and writes it back, Riak cannot
 reconcile automatically. Prior to version 2.0, Riak simply accepts both
-the writes. When a read comes for the same key, Riak sends all the
-versions for that key and lets the client to do manual reconciliation.
+writes. When a read comes for the same key, Riak sends all the versions
+for that key and lets the client to do manual reconciliation.
 
 To relieve developers from handling data convergence at the application
 level, Riak introduces Data Types, which have builtin convergence rules:
 
   **Data Type**   **Convergence rule**
-  --------------- ---------------------------------------------------------------------------------------------------------------------------------------------
-  Flags           `enable` wins over `disable`
-  Registers       The most chronologically recent value wins, based on timestamps
-  Counters        Each actor keeps an independent count for increments and decrements; upon merge, the pairwise maximum of the counts for each actor will win
-  Sets            If an element is concurrently added and removed, the add will win
-  Maps            If a field is concurrently added or updated and removed, the add/update will win
+  --------------- ----------------------------------------------------------------------------------------------------------------------------------------------
+  Flags           `enable` wins over `disable`.
+  Registers       The most chronologically recent value wins, based on timestamps.
+  Counters        Each actor keeps an independent count for increments and decrements; upon merge, the pairwise maximum of the counts for each actor will win.
+  Sets            If an element is concurrently added and removed, the add will win.
+  Maps            If a field is concurrently added or updated and removed, the add/update will win.
 
 Note that Riak Data Types do not guarantee strong consistency. Besides,
 the built in convergence rules may not be suitable in your applications.
@@ -3338,7 +3364,7 @@ BigTable’s data model and Dynamo’s system design. Therefore, Cassandra
 provides the flexible wide columnar model, and has linear scalability
 and proven fault-tolerance on commodity hardware. Besides, Cassandra’s
 support for replicating across multiple data centers is best-in-class.
-Since many features of Cassandra were already covered in previous
+Since many features of Cassandra are already covered in previous
 sections as they are shared with HBase and Riak, we will focus on the
 additional unique features in what follows.
 
@@ -3449,11 +3475,11 @@ emphasizes denormalization through collection types (set, list, and
 map).
 
 CQL also provides secondary index to access data using attributes other
-than the partition key. The index indexes column values in a separate,
-hidden table from the one that contains the values being indexed. The
-index is basically an inverted file. It is not suitable for
-high-cardinality columns, frequently updated or deleted columns, or
-searching for a row in a large partition unless narrowly queried.
+than the partition key. It indexes column values in a separate, hidden
+table from the one that contains the values being indexed. The index is
+basically an inverted file. It is not suitable for high-cardinality
+columns, frequently updated or deleted columns, or searching for a row
+in a large partition unless narrowly queried.
 
 ### Consistency
 
@@ -3563,7 +3589,7 @@ Before version 2.2, this lock was implemented on a per-mongod basis.
 Since version 2.2, the lock has been implemented at the database level.
 In a properly designed schema a write will hold the lock for
 approximately 10 microseconds. If a slow-running operation is predicted
-(i.e., a document or an index entry will need to be paged in from disk),
+(e.g., a document or an index entry will need to be paged in from disk),
 then that operation will yield the write lock. In version 3.0, the
 MMAPv1 storage engine adds support for collection-level locking by
 default.
@@ -3588,7 +3614,7 @@ a cluster environment to provide scalability and high availability.
 
 ### Replic Set
 
-High availability is achieved in MongoDb via Replica Set, which provides
+High availability is achieved in MongoDB via Replica Set, which provides
 data redundancy across multiple physical servers, including a single
 primary as well as multiple secondaries that replicate the primary’s
 oplog and apply the operations to their data sets. The primary accepts
@@ -3605,10 +3631,11 @@ preferences, however, the read results may not reflect latest writes
 because replications are done asynchronously.
 
 MongoDB allows users to specify write availability in the system, which
-is called the write concern. Write concern can include the w option to
-specify the required number of acknowledgments from replica set before
-returning, the j option to require writes to the journal before
-returning, and wtimeout option to specify a time limit to prevent write
+is called the write concern. Write concern can include the
+<span>*w*</span> option to specify the required number of
+acknowledgments from replica set before returning, the <span>*j*</span>
+option to require writes to the journal before returning, and
+<span>*wtimeout*</span> option to specify a time limit to prevent write
 operations from blocking indefinitely. Prior to November 2012, MongoDB’s
 client drivers return when the writes had only entered the client’s
 outgoing queue. Now the default write concern acknowledges writes
@@ -3631,7 +3658,8 @@ situations primaries will have accepted write operations that have not
 replicated to the secondaries after a failover occurs. When the former
 primary rejoins the replica set and attempts to continue replication as
 a secondary, the former primary must revert these operations to maintain
-database consistency across the replica set.
+database consistency across the replica set, which may result in data
+loss.
 
 ### Sharding
 
@@ -3676,6 +3704,9 @@ MongoDB is an agile database that allows schemas to change quickly as
 applications evolve. The JSON-like documents make the integration of
 data in some applications easier and faster. With careful setup, MongoDB
 clusters can also provide scalability and high availability.
+
+NewSQL
+======
 
 Stream Processing
 =================
