@@ -1,6 +1,6 @@
 # Introduction to Big Data
 
-Download the book in <a href="https://github.com/haifengl/bigdata/releases/download/v0.0.1/bigdata.pdf">PDF</a> or <a href="https://github.com/haifengl/bigdata/releases/download/v0.0.1/bigdata.epub">EPUB</a>.
+Download the book in <a href="https://github.com/haifengl/bigdata/releases/download/v0.0.2/bigdata.pdf">PDF</a> or <a href="https://github.com/haifengl/bigdata/releases/download/v0.0.2/bigdata.epub">EPUB</a>.
 
 -   Introduction
     -   What’s Big Data?
