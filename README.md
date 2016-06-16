@@ -1,5 +1,7 @@
 # Introduction to Big Data
 
+[![Join the chat at https://gitter.im/haifengl/bigdata](https://badges.gitter.im/haifengl/bigdata.svg)](https://gitter.im/haifengl/bigdata?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Download the book in <a href="https://github.com/haifengl/bigdata/releases/download/v0.0.2/bigdata.pdf">PDF</a> or <a href="https://github.com/haifengl/bigdata/releases/download/v0.0.2/bigdata.epub">EPUB</a>.
 
 -   Introduction
