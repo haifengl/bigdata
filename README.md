@@ -70,16 +70,6 @@ Download the book in <a href="https://github.com/haifengl/bigdata/releases/downl
         -   Replic Set
         -   Sharding
         -   Summary
--   NewSQL
--   Stream Processing
-    -   Storm
-    -   Spark Streaming
--   Cluster Management
-    -   Mesos
-    -   Docker
--   Graph Processing
--   Recommendation
--   Text Mining
 
 Introduction
 ============
@@ -3704,71 +3694,6 @@ MongoDB is an agile database that allows schemas to change quickly as
 applications evolve. The JSON-like documents make the integration of
 data in some applications easier and faster. With careful setup, MongoDB
 clusters can also provide scalability and high availability.
-
-NewSQL
-======
-
-Stream Processing
-=================
-
-Storm
------
-
-Spark Streaming
----------------
-
-Cluster Management
-==================
-
-Large-scale computer clusters are challenging to utilize efficiently.
-One of the critical tasks of cluster management is to dispatch work for
-the cluster to perform. The scheduler, assigning jobs to machines, has
-to take account of a variety of requirements and policies. With the
-ever-growing size of data, cluster, and workload, the scheduler may
-become a scalability bottleneck @Schwarzkopf:2013:OFS.
-
-Mesos
------
-
-![Mesos Architecture](images/mesos-architecture.jpg)
-
-Apache Mesos @Hindman:2011:MPF is a cluster resource management
-software, which gains popularity recently. Mesos uses the master-slave
-architecture similar to YARN but with a very different design goal.
-Mesos aims to enable sharing clusters between multiple diverse cluster
-computing frameworks, such as Hadoop, Spark and MPI. This improves
-cluster utilization and avoids per-framework data replication.
-
-Mesos introduces a distributed two-level scheduling mechanism[^18] and
-delegates control over scheduling to the frameworks. This allows
-frameworks to implement diverse approaches to various problems in the
-cluster and to evolve these solutions independently.
-
-Mesos consists of a master process that manages slave daemons running on
-each cluster node, and frameworks that run tasks on these slaves. The
-master implements resource sharing using through the abstraction
-<span>*resource offer*</span>, which encapsulates a bundle of resources
-that a framework can allocate on a cluster node to run tasks. The master
-decides how many resources to offer to each framework according to some
-(pluggable) policy.
-
-A framework running on top of Mesos consists of two components: a
-scheduler that registers with the master to be offered resources, and an
-executor process that is launched on slave nodes to run the framework’s
-tasks. Resource offers are simple and efficient to implement, allowing
-Mesos to be highly scalable and robust to failures.
-
-Docker
-------
-
-Graph Processing
-================
-
-Recommendation
-==============
-
-Text Mining
-===========
 
 [^1]: Interestingly, people were even against the idea of
     personalization back to 2001 @NunesKambil2001.
